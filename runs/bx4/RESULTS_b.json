@@ -1,0 +1,60 @@
+{
+ "n": 1000,
+ "table": {
+  "split=True,conc=True": 463,
+  "split=True,conc=False": 33,
+  "split=False,conc=True": 126,
+  "split=False,conc=False": 378
+ },
+ "mcnemar_exact_p": 5.2661759036773274e-14,
+ "conc_right_split_wrong_stage": {
+  "lost in synthesis": 39,
+  "no correct revised candidate": 87
+ },
+ "split_right_conc_wrong_stage": {
+  "lost in synthesis": 9,
+  "no correct revised candidate": 24
+ },
+ "round0_strata": {
+  "both had a round-0 candidate": {
+   "n": 455,
+   "split_final": 0.9010989010989011,
+   "conc_final": 0.9604395604395605,
+   "diff": [
+    -0.05934065934065934,
+    -0.08791208791208792,
+    -0.03076923076923077
+   ]
+  },
+  "split only": {
+   "n": 44,
+   "split_final": 0.5227272727272727,
+   "conc_final": 0.13636363636363635,
+   "diff": [
+    0.38636363636363635,
+    0.22727272727272727,
+    0.5454545454545454
+   ]
+  },
+  "concentrated only": {
+   "n": 154,
+   "split_final": 0.38961038961038963,
+   "conc_final": 0.935064935064935,
+   "diff": [
+    -0.5454545454545454,
+    -0.6233766233766234,
+    -0.4675324675324675
+   ]
+  },
+  "neither": {
+   "n": 347,
+   "split_final": 0.008645533141210375,
+   "conc_final": 0.005763688760806916,
+   "diff": [
+    0.002881844380403458,
+    -0.008645533141210375,
+    0.01440922190201729
+   ]
+  }
+ }
+}

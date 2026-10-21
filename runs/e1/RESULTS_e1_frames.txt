@@ -1,0 +1,21 @@
+=== E1 evidence-transfer intervention, frames final n=624 (judge) ===
+PRIMARY  C−B (answer+evidence − answer only)       = +9.3 pp [+6.6, +12.0] -> genuine evidence adds beyond the partner's answer
+PRIMARY  C−D (answer+evidence − answer+irrelevant) = +7.2 pp [+4.8, +9.8] -> the gain is sensitive to evidence relevance
+final accuracy: NC 0.258, FULL 0.362, ANS 0.256, ANS_RSN 0.319, ANS_EV 0.349, ANS_IRR 0.277, EV 0.362
+  ANS_minus_NC: -0.2 pp [-2.6, +2.2]
+  ANS_RSN_minus_NC: +6.1 pp [+3.2, +9.0]
+  ANS_EV_minus_NC: +9.1 pp [+6.2, +12.0]
+  ANS_IRR_minus_NC: +1.9 pp [-0.5, +4.3]
+  EV_minus_NC: +10.4 pp [+7.4, +13.5]
+  FULL_minus_NC: +10.4 pp [+7.5, +13.3]
+  ANS_RSN_minus_ANS: +6.2 pp [+3.7, +8.8]
+  FULL_minus_ANS_EV: +1.3 pp [-0.6, +3.2]
+  EV_minus_ANS_EV: +1.3 pp [-0.8, +3.4]
+round-0 discordant pairs n=167:
+  NC       BRR 0.018 HRR 0.060 adopt-partner 0.012
+  FULL     BRR 0.892 HRR 0.335 adopt-partner 0.868
+  ANS      BRR 0.329 HRR 0.323 adopt-partner 0.317
+  ANS_RSN  BRR 0.707 HRR 0.287 adopt-partner 0.695
+  ANS_EV   BRR 0.784 HRR 0.246 adopt-partner 0.731
+  ANS_IRR  BRR 0.353 HRR 0.234 adopt-partner 0.329
+  EV       BRR 0.509 HRR 0.030 adopt-partner 0.407

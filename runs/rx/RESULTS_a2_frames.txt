@@ -1,0 +1,11 @@
+=== A2 E2 eligibility and selection, FRAMES final: eligible 427 / excluded 197 (POST-HOC) ===
+exclusion reasons: {'no gold passage in pool': 13, 'fewer than 13 fillers': 184}
+  NC                   eligible    0.237  excluded    0.305  diff -0.068 [-0.145, +0.009]
+  MAS                  eligible    0.349  excluded    0.391  diff -0.042 [-0.123, +0.039]
+  P_int                eligible    0.112  excluded    0.086  diff +0.026 [-0.035, +0.089]
+  round0_acc           eligible    0.251  excluded    0.282  diff -0.031 [-0.094, +0.029]
+  agree                eligible    0.157  excluded    0.173  diff -0.016 [-0.080, +0.047]
+  n_gold_pages         eligible    3.265  excluded    3.213  diff +0.051 [-0.294, +0.351]
+  team_gold_retrieved  eligible    0.953  excluded    0.934  diff +0.019 [-0.020, +0.061]
+  n_gold_in_pool       eligible    7.782  excluded   23.030  diff -15.248 [-16.318, -14.091]
+  evidence_words       eligible 1186.499  excluded 1189.838  diff -3.339 [-8.431, +1.621]

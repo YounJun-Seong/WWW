@@ -1,0 +1,8 @@
+=== X8 adaptive message content on the E1 cached arms, frames final n=624; round-0 agreement 0.162 (rules fixed, no tuning; POST-HOC) ===
+  Always-ANS         acc 0.256  revision-stage tokens    3308  − Always-EV -10.6 pp [-13.6, -7.5]  − Always-FULL -10.6 pp [-13.5, -7.9]
+  Always-EV          acc 0.362  revision-stage tokens    5290  − Always-EV +0.0 pp [+0.0, +0.0]  − Always-FULL +0.0 pp [-2.2, +2.2]
+  Always-FULL        acc 0.362  revision-stage tokens    5638  − Always-EV +0.0 pp [-2.2, +2.2]  − Always-FULL +0.0 pp [+0.0, +0.0]
+  No-comm            acc 0.258  revision-stage tokens    3442  − Always-EV -10.4 pp [-13.5, -7.4]  − Always-FULL -10.4 pp [-13.3, -7.5]
+  Adaptive-ANS/EV    acc 0.365  revision-stage tokens    4984  − Always-EV +0.3 pp [+0.0, +0.8]  − Always-FULL +0.3 pp [-1.9, +2.6]
+  Adaptive-NC/EV     acc 0.357  revision-stage tokens    4988  − Always-EV -0.5 pp [-1.1, +0.2]  − Always-FULL -0.5 pp [-2.9, +1.8]
+  Adaptive-NC/FULL   acc 0.356  revision-stage tokens    5268  − Always-EV -0.6 pp [-3.0, +1.8]  − Always-FULL -0.6 pp [-1.3, -0.2]

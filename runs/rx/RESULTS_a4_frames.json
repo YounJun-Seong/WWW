@@ -1,0 +1,11 @@
+{
+ "dataset": "frames",
+ "funnel": {
+  "0 receiver initially wrong": 923,
+  "1 available (partner side holds gold)": 805,
+  "2 retrieved by partner": 652,
+  "3 transmitted (partner passages are always sent in full)": 652,
+  "4 corrected (receiver right after revision)": 160,
+  "5 preserved (team final answer right)": 145
+ }
+}

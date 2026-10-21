@@ -1,0 +1,12 @@
+[A7 judge-free scoring: contain]
+=== R4 matched-context control, frames final n=597 (POST-HOC) ===
+DPAD = each agent keeps its own 5 passages + 5 exclusive hard-negative pads (10 per agent, as in S_UNION)
+  P-int D: +5.5 pp [+3.4, +7.9]
+  P-int S_UNION: -1.0 pp [-2.3, +0.3]
+  P-int DPAD: +5.2 pp [+2.8, +7.5]
+  DiD original (D − S_UNION) = +6.5 pp [+3.9, +9.4]
+  DiD length-matched (DPAD − S_UNION) = +6.2 pp [+3.5, +9.0]
+  DPAD − D = -0.3 pp [-3.0, +2.3]
+  D: MAS 0.233 No-comm 0.178
+  S_UNION: MAS 0.223 No-comm 0.233
+  DPAD: MAS 0.221 No-comm 0.169

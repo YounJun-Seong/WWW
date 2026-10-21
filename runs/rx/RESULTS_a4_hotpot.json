@@ -1,0 +1,11 @@
+{
+ "dataset": "hotpot",
+ "funnel": {
+  "0 receiver initially wrong": 1315,
+  "1 available (partner side holds gold)": 1139,
+  "2 retrieved by partner": 1139,
+  "3 transmitted (partner passages are always sent in full)": 1139,
+  "4 corrected (receiver right after revision)": 449,
+  "5 preserved (team final answer right)": 415
+ }
+}

@@ -1,0 +1,9 @@
+judge–human agreement (FRAMES pilot, blind, n=50): 0.980; Cohen's kappa 0.959
+human TRUE 29, judge TRUE 30; judge lenient (judge T, human F) 1, judge strict (judge F, human T) 0
+  judge_true: n=20 agreement 1.000 (human TRUE 20)
+  judge_false: n=20 agreement 1.000 (human TRUE 0)
+  ambiguous: n=10 agreement 0.900 (human TRUE 9)
+disagreements:
+  item 46 [ambiguous, A1m] judge True human False note='Komodo National Park islands는 gold의 Lesser Sunda Islands라는 군도명을 답하지 않음'
+    gold: The Lesser Sundra Islands
+    resp: Komodo National Park islands

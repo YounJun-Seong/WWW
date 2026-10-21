@@ -1,0 +1,11 @@
+=== X7 conditional communication, hotpot: thresholds chosen on pilot n=500, read on final n=1000 (POST-HOC) ===
+policy                      thr    act    acc  calls  in_tok out_tok  acc − AlwaysComm
+NeverComm                  None  0.000  0.354   4.82    4073     724  -18.6 pp [-21.2, -16.0]
+AlwaysComm                 None  1.000  0.540   4.18    5724     705  +0.0 pp [+0.0, +0.0]
+Disagreement               None  0.792  0.530   4.21    5357     703  -1.0 pp [-1.7, -0.4]
+LowConfidence                 0  1.000  0.540   4.18    5724     705  +0.0 pp [+0.0, +0.0]
+ScoreGap                    0.0  1.000  0.540   4.18    5724     705  +0.0 pp [+0.0, +0.0]
+Disagree_or_ScoreGap       0.15  0.915  0.537   4.20    5568     705  -0.3 pp [-0.7, +0.0]
+ContentNovelty             0.45  0.989  0.540   4.19    5727     705  +0.0 pp [+0.0, +0.0]
+ContentNovelty_or_Disagree   0.65  0.959  0.539   4.19    5727     704  -0.1 pp [-0.3, +0.0]
+Oracle (upper bound)       None  0.202  0.556   4.64    4388     713  (uses outcomes)

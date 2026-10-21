@@ -1,0 +1,78 @@
+{
+ "n": 1000,
+ "n_total": 1000,
+ "excluded": {},
+ "placement": [
+  0.142,
+  0.121,
+  0.163
+ ],
+ "overlap": [
+  -0.004,
+  -0.0205,
+  0.013
+ ],
+ "interaction": [
+  0.02,
+  -0.012,
+  0.051
+ ],
+ "cells": {
+  "EXCL_LOW": {
+   "P_int": [
+    0.168,
+    0.144,
+    0.193
+   ],
+   "MAS": 0.588,
+   "NOCOMM": 0.42,
+   "round0_acc": 0.348,
+   "round0_agree": 0.125,
+   "shared": 0.001,
+   "gold_A": 0.974,
+   "gold_B": 1.026
+  },
+  "EXCL_HIGH": {
+   "P_int": [
+    0.162,
+    0.137,
+    0.187
+   ],
+   "MAS": 0.582,
+   "NOCOMM": 0.42,
+   "round0_acc": 0.36,
+   "round0_agree": 0.161,
+   "shared": 3.0,
+   "gold_A": 0.974,
+   "gold_B": 1.026
+  },
+  "SHAR_LOW": {
+   "P_int": [
+    0.016,
+    0.005,
+    0.028
+   ],
+   "MAS": 0.593,
+   "NOCOMM": 0.577,
+   "round0_acc": 0.5925,
+   "round0_agree": 0.798,
+   "shared": 2.001,
+   "gold_A": 2.0,
+   "gold_B": 2.0
+  },
+  "SHAR_HIGH": {
+   "P_int": [
+    0.03,
+    0.017,
+    0.044
+   ],
+   "MAS": 0.607,
+   "NOCOMM": 0.577,
+   "round0_acc": 0.5945,
+   "round0_agree": 0.921,
+   "shared": 5.0,
+   "gold_A": 2.0,
+   "gold_B": 2.0
+  }
+ }
+}

@@ -1,0 +1,9 @@
+=== evidence log (descriptive, judge-based; not human-validated) frames pilot: n=200 ===
+discordant round-0 pairs D = 58
+  held        55/58 = 0.948   (denominator: D)
+  retrieved   52/58 = 0.897   (denominator: D)
+  transmitted 52/52 = 1.000   (denominator: retrieved)
+  corrected   48/52 = 0.923   (denominator: transmitted)
+  corrected | partner retrieved no gold 5/6 = 0.833   (denominator: not retrieved)
+  cites partner gold passage 44/48 = 0.917   (denominator: corrected)
+MAS-wrong questions = 132; types (denominator: MAS-wrong): insufficient_evidence 93/132 = 0.705, integration_failure 30/132 = 0.227, retrieval_miss 9/132 = 0.068

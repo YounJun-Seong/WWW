@@ -1,0 +1,13 @@
+=== BX2-D statistics and leakage audit (POST-HOC; pre-specified) ===
+denominators (gen files: rows / skipped / errors):
+  92 generation files; files with errors: none; with skips: frames_DPAD_gen.jsonl 27, frames_R10_HARDNEG_gen.jsonl 11, frames_R12_N3_gen.jsonl 37, frames_R12_N6_gen.jsonl 44, frames_R1_GOLDREP_gen.jsonl 11, frames_R2_I1a_gen.jsonl 13, frames_R2_I1b_gen.jsonl 41, frames_R2_I2_gen.jsonl 13, frames_R2_I3_gen.jsonl 13, frames_R2_I4_gen.jsonl 13, frames_R1_GOLDREP_gen.jsonl 11, frames_R2_I1a_gen.jsonl 13, frames_R2_I1b_gen.jsonl 41, frames_R2_I2_gen.jsonl 13, frames_R2_I3_gen.jsonl 13, frames_R2_I4_gen.jsonl 13
+B4-P1 frames: diff +0.32 pp; 95% CI [-0.72, +1.36] (pre-specified reading) equivalent True; TOST 90% CI [-0.56, +1.20] equivalent True (margin ±2 pp, pre-specified)
+  independent recomputation frames: P1 +0.0032 vs +0.0032; P2 k=1 +0.0337 vs +0.0337, k=3 +0.0256 vs +0.0256, k=5 +0.0296 vs +0.0296
+B4-P1 hotpot: diff -0.55 pp; 95% CI [-1.50, +0.45] (pre-specified reading) equivalent True; TOST 90% CI [-1.35, +0.30] equivalent True (margin ±2 pp, pre-specified)
+  independent recomputation hotpot: P1 -0.0055 vs -0.0055; P2 k=1 +0.0240 vs +0.0240, k=3 +0.0195 vs +0.0195, k=5 -0.0055 vs -0.0055
+alt scoring FRAMES [contain]: P1 +0.6 pp [-0.3, +1.4]; P2 k=1 +2.0 pp [+0.8, +3.2], k=3 +1.4 pp [+0.0, +3.0], k=5 +1.8 pp [+0.4, +3.3]; CQ_GEN_5 0.255 vs FULL(MAS) 0.236 vs UNI_SC 0.244
+alt scoring FRAMES [f1]: P1 +0.7 pp [-0.3, +1.8]; P2 k=1 +3.0 pp [+1.6, +4.4], k=3 +2.4 pp [+0.8, +4.0], k=5 +3.4 pp [+1.6, +5.1]; CQ_GEN_5 0.339 vs FULL(MAS) 0.304 vs UNI_SC 0.330
+leakage (static): prompt(...) calls referencing gold-like names: none (rx_run R1/R2/R10 build gold-informed MESSAGES from data/rx assignments by design; those calls pass passages, not gold labels)
+leakage (dynamic) frames: generated query contains gold answer 0.034; round-0 reasoning contains it 0.200
+leakage (dynamic) hotpot: generated query contains gold answer 0.140; round-0 reasoning contains it 0.586
+bootstrap type: question-level paired (rx_analyze.boot) for question outcomes; agent outcomes averaged per question or cluster-resampled (rx_analyze.cboot / bx2 joint_rate_diff) — the two agents of a question always move together

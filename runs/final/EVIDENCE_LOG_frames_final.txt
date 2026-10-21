@@ -1,0 +1,9 @@
+=== evidence log (descriptive, judge-based; not human-validated) frames final: n=624 ===
+discordant round-0 pairs D = 167
+  held        161/167 = 0.964   (denominator: D)
+  retrieved   153/167 = 0.916   (denominator: D)
+  transmitted 153/153 = 1.000   (denominator: retrieved)
+  corrected   140/153 = 0.915   (denominator: transmitted)
+  corrected | partner retrieved no gold 9/14 = 0.643   (denominator: not retrieved)
+  cites partner gold passage 129/140 = 0.921   (denominator: corrected)
+MAS-wrong questions = 398; types (denominator: MAS-wrong): insufficient_evidence 282/398 = 0.709, integration_failure 85/398 = 0.214, retrieval_miss 29/398 = 0.073, unknown_unparsed 2/398 = 0.005

@@ -1,0 +1,8 @@
+=== R5 partition-seed robustness, frames final n=624, seeds [2027, 2028, 2029, 2030] (2027 = frozen) (POST-HOC) ===
+  seed 2027: P-int D +10.4 pp [+7.5, +13.3]; P-int S_UNION -1.3 pp [-3.0, +0.5]; DiD +11.7 pp [+8.3, +15.1]; MAS/NC D 0.362/0.258 SU 0.346/0.359; one-correct 0.268
+  seed 2028: P-int D +8.2 pp [+5.4, +10.9]; P-int S_UNION +0.3 pp [-1.0, +1.6]; DiD +7.9 pp [+4.8, +10.9]; MAS/NC D 0.333/0.252 SU 0.357/0.354; one-correct 0.263
+  seed 2029: P-int D +9.6 pp [+7.2, +12.2]; P-int S_UNION +0.6 pp [-0.5, +1.8]; DiD +9.0 pp [+6.2, +11.7]; MAS/NC D 0.340/0.244 SU 0.359/0.353; one-correct 0.271
+  seed 2030: P-int D +7.7 pp [+5.0, +10.3]; P-int S_UNION -0.2 pp [-1.3, +1.0]; DiD +7.9 pp [+5.0, +10.7]; MAS/NC D 0.351/0.274 SU 0.349/0.351; one-correct 0.277
+  across seeds P_int_D: mean +9.0 pp, sd 1.3, range [+7.7, +10.4]
+  across seeds P_int_SU: mean -0.1 pp, sd 0.8, range [-1.3, +0.6]
+  across seeds DiD: mean +9.1 pp, sd 1.8, range [+7.9, +11.7]

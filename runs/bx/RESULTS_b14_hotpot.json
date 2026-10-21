@@ -1,0 +1,679 @@
+{
+ "dataset": "hotpot",
+ "n": 1000,
+ "systems": {
+  "LOCAL_ONE": {
+   "regime": "R0",
+   "kind": "single",
+   "calls": 1.0,
+   "tokens": 1023.359,
+   "retr": 1,
+   "moved": 0,
+   "depth": 1.0,
+   "accuracy": [
+    0.3425,
+    0.3205,
+    0.3645
+   ]
+  },
+  "LOCAL_SC": {
+   "regime": "R0",
+   "kind": "single",
+   "calls": 4.0,
+   "tokens": 4127.612,
+   "retr": 1,
+   "moved": 0,
+   "depth": 1.0,
+   "accuracy": [
+    0.364,
+    0.342,
+    0.3865
+   ]
+  },
+  "LOCAL_REV": {
+   "regime": "R0",
+   "kind": "single",
+   "calls": 2.0,
+   "tokens": 2190.314,
+   "retr": 1,
+   "moved": 0,
+   "depth": 2.0,
+   "accuracy": [
+    0.319,
+    0.2975,
+    0.34
+   ]
+  },
+  "NOCOMM": {
+   "regime": "R0",
+   "kind": "team",
+   "calls": 4.815,
+   "tokens": 4797.19,
+   "retr": 2,
+   "moved": 0,
+   "depth": 2.815,
+   "accuracy": [
+    0.354,
+    0.325,
+    0.384
+   ]
+  },
+  "E1_ANS": {
+   "regime": "R1",
+   "kind": "team",
+   "calls": 4.521,
+   "tokens": 4757.1,
+   "retr": 2,
+   "moved": 0,
+   "depth": 2.521,
+   "accuracy": [
+    0.413,
+    0.383,
+    0.444
+   ]
+  },
+  "E1_ANS_RSN": {
+   "regime": "R1",
+   "kind": "team",
+   "calls": 4.377,
+   "tokens": 5082.847,
+   "retr": 2,
+   "moved": 0,
+   "depth": 2.377,
+   "accuracy": [
+    0.453,
+    0.422,
+    0.484
+   ]
+  },
+  "E1_ANS_EV": {
+   "regime": "R2",
+   "kind": "team",
+   "calls": 4.192,
+   "tokens": 6024.328,
+   "retr": 2,
+   "moved": 10,
+   "depth": 2.192,
+   "accuracy": [
+    0.554,
+    0.523,
+    0.585
+   ]
+  },
+  "E1_EV": {
+   "regime": "R2",
+   "kind": "team",
+   "calls": 4.292,
+   "tokens": 6038.007,
+   "retr": 2,
+   "moved": 10,
+   "depth": 2.292,
+   "accuracy": [
+    0.559,
+    0.528,
+    0.59
+   ]
+  },
+  "FULL(MAS)": {
+   "regime": "R2",
+   "kind": "team",
+   "calls": 4.184,
+   "tokens": 6428.698,
+   "retr": 2,
+   "moved": 10,
+   "depth": 2.184,
+   "accuracy": [
+    0.54,
+    0.509,
+    0.571
+   ]
+  },
+  "PEER_EV_1": {
+   "regime": "R2",
+   "kind": "team",
+   "calls": 4.597,
+   "tokens": 4967.469,
+   "retr": 2,
+   "moved": 2,
+   "depth": 2.597,
+   "accuracy": [
+    0.486,
+    0.455,
+    0.517
+   ]
+  },
+  "PEER_EV_3": {
+   "regime": "R2",
+   "kind": "team",
+   "calls": 4.473,
+   "tokens": 5469.555,
+   "retr": 2,
+   "moved": 6,
+   "depth": 2.473,
+   "accuracy": [
+    0.521,
+    0.491,
+    0.553
+   ]
+  },
+  "PEER_EV_5": {
+   "regime": "R2",
+   "kind": "team",
+   "calls": 4.301,
+   "tokens": 6036.793,
+   "retr": 2,
+   "moved": 10,
+   "depth": 2.301,
+   "accuracy": [
+    0.562,
+    0.5319750000000001,
+    0.593
+   ]
+  },
+  "CQ_Q_1": {
+   "regime": "R3",
+   "kind": "single",
+   "calls": 2.0,
+   "tokens": 2320.1535,
+   "retr": 2,
+   "moved": 1,
+   "depth": 2.0,
+   "accuracy": [
+    0.4405,
+    0.416,
+    0.466
+   ]
+  },
+  "CQ_Q_1_team": {
+   "regime": "R3",
+   "kind": "team",
+   "calls": 4.617,
+   "tokens": 4944.179,
+   "retr": 2,
+   "moved": 2,
+   "depth": 2.617,
+   "accuracy": [
+    0.488,
+    0.458,
+    0.52
+   ]
+  },
+  "CQ_Q_3": {
+   "regime": "R3",
+   "kind": "single",
+   "calls": 2.0,
+   "tokens": 2602.967,
+   "retr": 2,
+   "moved": 3,
+   "depth": 2.0,
+   "accuracy": [
+    0.4885,
+    0.4625,
+    0.515
+   ]
+  },
+  "CQ_Q_3_team": {
+   "regime": "R3",
+   "kind": "team",
+   "calls": 4.497,
+   "tokens": 5452.935,
+   "retr": 2,
+   "moved": 6,
+   "depth": 2.497,
+   "accuracy": [
+    0.527,
+    0.496,
+    0.559
+   ]
+  },
+  "CQ_Q_5": {
+   "regime": "R3",
+   "kind": "single",
+   "calls": 2.0,
+   "tokens": 2926.307,
+   "retr": 2,
+   "moved": 5,
+   "depth": 2.0,
+   "accuracy": [
+    0.558,
+    0.5295,
+    0.5865
+   ]
+  },
+  "CQ_Q_5_team": {
+   "regime": "R3",
+   "kind": "team",
+   "calls": 4.311,
+   "tokens": 6009.089,
+   "retr": 2,
+   "moved": 10,
+   "depth": 2.311,
+   "accuracy": [
+    0.563,
+    0.533,
+    0.594
+   ]
+  },
+  "CQ_GEN_1": {
+   "regime": "R3",
+   "kind": "single",
+   "calls": 3.0,
+   "tokens": 3415.1125,
+   "retr": 2,
+   "moved": 1,
+   "depth": 3.0,
+   "accuracy": [
+    0.477,
+    0.4515,
+    0.504
+   ]
+  },
+  "CQ_GEN_1_team": {
+   "regime": "R3",
+   "kind": "team",
+   "calls": 6.526,
+   "tokens": 7085.792,
+   "retr": 4,
+   "moved": 2,
+   "depth": 3.526,
+   "accuracy": [
+    0.525,
+    0.494,
+    0.557
+   ]
+  },
+  "CQ_GEN_3": {
+   "regime": "R3",
+   "kind": "single",
+   "calls": 3.0,
+   "tokens": 3703.7535,
+   "retr": 2,
+   "moved": 3,
+   "depth": 3.0,
+   "accuracy": [
+    0.5175,
+    0.4905,
+    0.5450124999999999
+   ]
+  },
+  "CQ_GEN_3_team": {
+   "regime": "R3",
+   "kind": "team",
+   "calls": 6.416,
+   "tokens": 7612.796,
+   "retr": 4,
+   "moved": 6,
+   "depth": 3.416,
+   "accuracy": [
+    0.542,
+    0.511,
+    0.573
+   ]
+  },
+  "CQ_GEN_5": {
+   "regime": "R3",
+   "kind": "single",
+   "calls": 3.0,
+   "tokens": 4021.554,
+   "retr": 2,
+   "moved": 5,
+   "depth": 3.0,
+   "accuracy": [
+    0.558,
+    0.53,
+    0.5865
+   ]
+  },
+  "CQ_GEN_5_team": {
+   "regime": "R3",
+   "kind": "team",
+   "calls": 6.32,
+   "tokens": 8205.111,
+   "retr": 4,
+   "moved": 10,
+   "depth": 3.32,
+   "accuracy": [
+    0.564,
+    0.533,
+    0.595
+   ]
+  },
+  "UNI_ONE": {
+   "regime": "R4",
+   "kind": "single",
+   "calls": 1.0,
+   "tokens": 1735.169,
+   "retr": 2,
+   "moved": 5,
+   "depth": 1.0,
+   "accuracy": [
+    0.58,
+    0.549,
+    0.611
+   ]
+  },
+  "UNI_REV": {
+   "regime": "R4",
+   "kind": "single",
+   "calls": 2.0,
+   "tokens": 3616.924,
+   "retr": 2,
+   "moved": 5,
+   "depth": 2.0,
+   "accuracy": [
+    0.556,
+    0.526,
+    0.587
+   ]
+  },
+  "UNI_SC": {
+   "regime": "R4",
+   "kind": "single",
+   "calls": 4.0,
+   "tokens": 6975.551,
+   "retr": 2,
+   "moved": 5,
+   "depth": 1.0,
+   "accuracy": [
+    0.591,
+    0.56,
+    0.621
+   ]
+  },
+  "POOL": {
+   "regime": "R5",
+   "kind": "single",
+   "calls": 1.0,
+   "tokens": 1735.169,
+   "retr": 1,
+   "moved": null,
+   "depth": 1.0,
+   "accuracy": [
+    0.58,
+    0.549,
+    0.611
+   ]
+  },
+  "SC": {
+   "regime": "R5",
+   "kind": "single",
+   "calls": 4.0,
+   "tokens": 6975.551,
+   "retr": 1,
+   "moved": null,
+   "depth": 1.0,
+   "accuracy": [
+    0.591,
+    0.56,
+    0.621
+   ]
+  }
+ },
+ "B4_P1_framing_CQ_Q5_minus_PEER_EV5_agent": {
+  "diff": [
+   -0.0055,
+   -0.0155,
+   0.0045
+  ],
+  "within_pm2pp": true
+ },
+ "B4_P2_targeting_CQ_GEN_minus_PEER_EV_agent": {
+  "1": [
+   0.024,
+   0.01,
+   0.0385
+  ],
+  "3": [
+   0.0195,
+   0.005,
+   0.034
+  ],
+  "5": [
+   -0.0055,
+   -0.0155,
+   0.0045
+  ]
+ },
+ "B4_agent_acc": {
+  "PEER_EV_1": [
+   0.453,
+   0.4285,
+   0.4785
+  ],
+  "PEER_EV_3": [
+   0.498,
+   0.4715,
+   0.525
+  ],
+  "PEER_EV_5": [
+   0.5635,
+   0.536,
+   0.592
+  ],
+  "CQ_Q_1": [
+   0.4405,
+   0.416,
+   0.466
+  ],
+  "CQ_Q_3": [
+   0.4885,
+   0.4625,
+   0.515
+  ],
+  "CQ_Q_5": [
+   0.558,
+   0.5295,
+   0.5865
+  ],
+  "CQ_GEN_1": [
+   0.477,
+   0.4515,
+   0.504
+  ],
+  "CQ_GEN_3": [
+   0.5175,
+   0.4905,
+   0.5450124999999999
+  ],
+  "CQ_GEN_5": [
+   0.558,
+   0.53,
+   0.5865
+  ]
+ },
+ "B4_P3_team_curve": {
+  "PEER_EV_1": 0.486,
+  "PEER_EV_3": 0.521,
+  "PEER_EV_5": 0.562,
+  "CQ_Q_1": 0.488,
+  "CQ_Q_3": 0.527,
+  "CQ_Q_5": 0.563,
+  "CQ_GEN_1": 0.525,
+  "CQ_GEN_3": 0.542,
+  "CQ_GEN_5": 0.564
+ },
+ "query_stats": {
+  "parsed": 0.9995,
+  "overlap_with_peer_top5_k5": 4.986,
+  "gold_sent": {
+   "PEER_EV_1": 0.507,
+   "PEER_EV_3": 0.7495,
+   "PEER_EV_5": 1.0,
+   "CQ_GEN_1": 0.594,
+   "CQ_GEN_3": 0.82,
+   "CQ_GEN_5": 1.0
+  }
+ },
+ "B1_P2_frontiers": {
+  "R0": {
+   "best": "LOCAL_SC",
+   "tokens": [
+    "LOCAL_ONE",
+    "LOCAL_SC"
+   ],
+   "calls": [
+    "LOCAL_ONE",
+    "LOCAL_SC"
+   ],
+   "retr": [
+    "LOCAL_SC"
+   ]
+  },
+  "R1": {
+   "best": "E1_ANS_RSN",
+   "tokens": [
+    "E1_ANS",
+    "E1_ANS_RSN",
+    "LOCAL_ONE",
+    "LOCAL_SC"
+   ],
+   "calls": [
+    "E1_ANS_RSN",
+    "LOCAL_ONE",
+    "LOCAL_SC"
+   ],
+   "retr": [
+    "E1_ANS_RSN",
+    "LOCAL_SC"
+   ]
+  },
+  "R2": {
+   "best": "PEER_EV_5",
+   "tokens": [
+    "E1_ANS",
+    "E1_ANS_EV",
+    "LOCAL_ONE",
+    "LOCAL_SC",
+    "PEER_EV_1",
+    "PEER_EV_3",
+    "PEER_EV_5"
+   ],
+   "calls": [
+    "E1_ANS_EV",
+    "E1_EV",
+    "FULL(MAS)",
+    "LOCAL_ONE",
+    "LOCAL_SC",
+    "PEER_EV_5"
+   ],
+   "retr": [
+    "LOCAL_SC",
+    "PEER_EV_5"
+   ]
+  },
+  "R3": {
+   "best": "CQ_GEN_5_team",
+   "tokens": [
+    "CQ_GEN_5_team",
+    "CQ_Q_1",
+    "CQ_Q_3",
+    "CQ_Q_5",
+    "CQ_Q_5_team",
+    "LOCAL_ONE"
+   ],
+   "calls": [
+    "CQ_GEN_5_team",
+    "CQ_Q_5",
+    "CQ_Q_5_team",
+    "E1_EV",
+    "LOCAL_ONE",
+    "PEER_EV_5"
+   ],
+   "retr": [
+    "CQ_GEN_5_team",
+    "CQ_Q_5_team",
+    "LOCAL_SC"
+   ]
+  },
+  "R4": {
+   "best": "UNI_SC",
+   "tokens": [
+    "LOCAL_ONE",
+    "UNI_ONE",
+    "UNI_SC"
+   ],
+   "calls": [
+    "UNI_ONE",
+    "UNI_SC"
+   ],
+   "retr": [
+    "LOCAL_SC",
+    "UNI_SC"
+   ]
+  },
+  "R5": {
+   "best": "UNI_SC",
+   "tokens": [
+    "LOCAL_ONE",
+    "POOL",
+    "SC",
+    "UNI_ONE",
+    "UNI_SC"
+   ],
+   "calls": [
+    "POOL",
+    "SC",
+    "UNI_ONE",
+    "UNI_SC"
+   ],
+   "retr": [
+    "SC"
+   ]
+  }
+ },
+ "B1_P1_best_per_regime": {
+  "R0": {
+   "system": "LOCAL_SC",
+   "accuracy": [
+    0.364,
+    0.342,
+    0.3865
+   ]
+  },
+  "R1": {
+   "system": "E1_ANS_RSN",
+   "accuracy": [
+    0.453,
+    0.422,
+    0.484
+   ]
+  },
+  "R2": {
+   "system": "PEER_EV_5",
+   "accuracy": [
+    0.562,
+    0.5319750000000001,
+    0.593
+   ]
+  },
+  "R3": {
+   "system": "CQ_GEN_5_team",
+   "accuracy": [
+    0.564,
+    0.533,
+    0.595
+   ]
+  },
+  "R4": {
+   "system": "UNI_SC",
+   "accuracy": [
+    0.591,
+    0.56,
+    0.621
+   ]
+  },
+  "R5": {
+   "system": "UNI_SC",
+   "accuracy": [
+    0.591,
+    0.56,
+    0.621
+   ]
+  }
+ },
+ "B1_P1_recovery_ratio": [
+  0.8722466960352426,
+  0.7914888575173946,
+  0.9562099454542562
+ ]
+}

@@ -1,0 +1,4 @@
+S_UNION pilot: n=200 errors=0 parse_min=1.000 trunc=0.0000 pids_ok=True max_input=5293 round0_agreement=0.600 -> ok
+S_5 pilot: n=200 errors=0 parse_min=1.000 trunc=0.0000 pids_ok=True max_input=3105 round0_agreement=0.625 -> ok
+S_UNION_T7 pilot: n=200 errors=0 parse_min=0.990 trunc=0.0007 pids_ok=True max_input=5348 round0_agreement=0.350 -> ok
+PASS

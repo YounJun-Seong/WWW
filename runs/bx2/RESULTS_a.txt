@@ -1,0 +1,33 @@
+=== BX2-A B3 evidence-integration audit, HotpotQA final n=1000 (POST-HOC; pre-specified in DESIGN_BX2.md) ===
+A1 PRIMARY (all agents, same questions; total effect of placement)
+  agent revised acc  F_SPLIT         0.497 [0.468, 0.527]
+  agent revised acc  F_SHAR          0.611 [0.581, 0.640]
+  agent revised acc  F_CONC_holder   0.583 [0.552, 0.613]
+  agent revised acc  F_CONC_other    0.598 [0.568, 0.629]
+  F_SPLIT − F_SHAR               -11.3 pp [-13.5, -9.2]
+  F_SPLIT − F_CONC_holder        -8.6 pp [-10.8, -6.3]
+  F_SPLIT − F_CONC_other         -10.1 pp [-12.4, -7.8]
+  team final F_SPLIT  0.496
+  team final F_CONC   0.589
+  team final F_SHAR   0.605
+  team F_SPLIT − F_CONC       -9.3 pp [-11.7, -6.8]
+  team F_SPLIT − F_SHAR       -10.9 pp [-13.2, -8.6]
+  team F_CONC − F_SHAR        -1.6 pp [-3.2, -0.1]
+A2 SECONDARY (agents wrong at round 0; conditional repair rate — NOT a causal total effect)
+  F_SPLIT         n=1342  repair 0.317 [0.289, 0.348]
+  F_SHAR          n= 804  repair 0.090 [0.070, 0.112]
+  F_CONC_holder   n= 401  repair 0.040 [0.022, 0.061]
+  F_CONC_other    n= 861  repair 0.542 [0.509, 0.575]
+  F_SPLIT − F_SHAR               +22.8 pp [+19.6, +26.1]
+  F_SPLIT − F_CONC_holder        +27.8 pp [+24.5, +31.1]
+  F_SPLIT − F_CONC_other         -22.5 pp [-25.3, -19.7]
+A3 MECHANISM AUDIT (question level; cited = citation-based PROXY of evidence use)
+  cell      recv cite/ag cite_any  cand0 cand_rev  final no_cand lost_agg pres|cand
+  NONE     0.000   0.000    0.000  0.176    0.184  0.149   0.816    0.035     0.810
+  P_EXCL   0.000   0.000    0.000  0.370    0.363  0.301   0.637    0.062     0.829
+  P_SHAR   0.000   0.000    0.000  0.421    0.420  0.357   0.580    0.063     0.850
+  F_SPLIT  1.000   0.708    0.849  0.499    0.553  0.496   0.447    0.057     0.897
+  F_CONC   1.000   0.847    0.901  0.609    0.612  0.589   0.388    0.024     0.961
+  F_SHAR   1.000   0.901    0.926  0.643    0.629  0.605   0.371    0.024     0.962
+  paired F_SPLIT − F_CONC: cited_agent -13.9 pp [-16.2, -11.5]; cited_any -5.2 pp [-7.6, -2.8]; cand_round0 -11.0 pp [-13.7, -8.3]; cand_revision -5.9 pp [-8.2, -3.7]; final -9.3 pp [-11.7, -6.8]; no_candidate +5.9 pp [+3.7, +8.2]; lost_in_aggregation +3.3 pp [+1.7, +4.9]
+  paired F_SPLIT − F_SHAR: cited_agent -19.3 pp [-21.6, -17.0]; cited_any -7.7 pp [-10.0, -5.4]; cand_round0 -14.4 pp [-17.0, -11.9]; cand_revision -7.6 pp [-9.8, -5.4]; final -10.9 pp [-13.2, -8.6]; no_candidate +7.6 pp [+5.4, +9.8]; lost_in_aggregation +3.3 pp [+1.7, +5.0]

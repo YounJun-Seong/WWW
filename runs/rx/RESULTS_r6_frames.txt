@@ -1,0 +1,13 @@
+=== R6 single-agent union baselines (same evidence union A5∪B5 as the MAS team), frames final n=624 (POST-HOC) ===
+  MAS      acc 0.362  calls 4.4  in 7200  out 970
+  NOCOMM   acc 0.258  calls 4.9  in 5038  out 935
+  POOL     acc 0.353  calls 1.0  in 1932  out 262
+  SC       acc 0.377  calls 4.0  in 7728  out 1136
+  UNI_ONE  acc 0.351  calls 1.0  in 1926  out 266
+  UNI_REV  acc 0.356  calls 2.0  in 4122  out 487
+  UNI_SC   acc 0.385  calls 4.0  in 7702  out 1131
+  MAS_minus_UNI_ONE: +1.1 pp [-1.8, +4.0]
+  MAS_minus_UNI_REV: +0.6 pp [-2.2, +3.4]
+  MAS_minus_UNI_SC: -2.2 pp [-5.1, +0.6]
+  MAS_minus_POOL: +1.0 pp [-2.1, +4.2]
+  MAS_minus_SC: -1.4 pp [-4.6, +1.8]

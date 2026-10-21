@@ -1,0 +1,10 @@
+=== BX4-B matched-question transitions, HotpotQA F_SPLIT vs F_CONC, n=1000 (offline; POST-HOC) ===
+final correct: both 463, split only 33, concentrated only 126, neither 378; exact McNemar p = 5.3e-14
+concentrated right / split wrong (126): split failed at lost in synthesis 39, no correct revised candidate 87
+split right / concentrated wrong (33): concentrated failed at lost in synthesis 9, no correct revised candidate 24
+stratified by round-0 correct-candidate presence (split cell / concentrated cell):
+   both had a round-0 candidate   n= 455  final split 0.901  concentrated 0.960  split − conc -5.9 pp [-8.8, -3.1]
+   split only                     n=  44  final split 0.523  concentrated 0.136  split − conc +38.6 pp [+22.7, +54.5]
+   concentrated only              n= 154  final split 0.390  concentrated 0.935  split − conc -54.5 pp [-62.3, -46.8]
+   neither                        n= 347  final split 0.009  concentrated 0.006  split − conc +0.3 pp [-0.9, +1.4]
+Limitation: allocation changes round-0 states; strata describe, they do not remove, initial-state differences.

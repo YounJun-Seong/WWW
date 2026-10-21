@@ -1,0 +1,12 @@
+=== FRAMES final evidence-distribution experiment (judge-based), n=624 ===
+PRIMARY  DiD(S_UNION) = [MAS−No-comm]_D − [MAS−No-comm]_S_UNION = +11.7 pp [+8.3, +15.1]  -> distribution moderates the communication effect
+secondary DiD(S_5) = +9.1 pp [+6.1, +12.2]
+secondary DiD(S_UNION_T7) = +9.3 pp [+5.9, +12.8]
+[D] MAS 0.362 No-comm 0.258 A0 0.263 B0 0.258; P-int +10.4 pp [+7.5, +13.3]; MAS−Pooled +1.0 pp [-2.1, +4.2]
+     round-0 agreement 0.162; κ0 0.394 → MAS 0.388 (gain 0.019, loss 0.026); discordant 167 BRR 0.8922155688622755 HRR 0.33532934131736525; tokens/q MAS 8170 No-comm 5974; synth 0.409
+[S_UNION] MAS 0.346 No-comm 0.359 A0 0.351 B0 0.340; P-int -1.3 pp [-3.0, +0.5]; MAS−Pooled -0.6 pp [-3.7, +2.4]; MAS−MAS_D -1.6 pp [-4.5, +1.3]; NoComm−NoComm_D +10.1 pp [+6.7, +13.5]
+     round-0 agreement 0.675; κ0 0.377 → MAS 0.373 (gain 0.002, loss 0.005); discordant 39 BRR 0.8974358974358975 HRR 0.8717948717948718; tokens/q MAS 13660 No-comm 9467; synth 0.247
+[S_5] MAS 0.321 No-comm 0.308 A0 0.301 B0 0.304; P-int +1.3 pp [+0.0, +2.6]; MAS−Pooled -3.2 pp [-5.9, -0.6]; MAS−MAS_D -4.2 pp [-7.2, -1.3]; NoComm−NoComm_D +5.0 pp [+1.8, +8.2]
+     round-0 agreement 0.631; κ0 0.330 → MAS 0.327 (gain 0.000, loss 0.003); discordant 34 BRR 0.9411764705882353 HRR 0.6176470588235294; tokens/q MAS 8167 No-comm 5771; synth 0.274
+[S_UNION_T7] MAS 0.391 No-comm 0.380 A0 0.370 B0 0.373; P-int +1.1 pp [-0.8, +3.0]; MAS−Pooled +3.8 pp [+0.6, +7.1]; MAS−MAS_D +2.9 pp [-0.2, +5.9]; NoComm−NoComm_D +12.2 pp [+8.8, +15.5]
+     round-0 agreement 0.351; κ0 0.441 → MAS 0.434 (gain 0.006, loss 0.013); discordant 86 BRR 0.8953488372093024 HRR 0.686046511627907; tokens/q MAS 13907 No-comm 9735; synth 0.442

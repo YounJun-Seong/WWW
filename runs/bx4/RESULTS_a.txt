@@ -1,0 +1,20 @@
+=== BX4-A supporting-evidence sufficiency audit (R2 I2; receivers wrong at round 0) — MODEL PROXIES ===
+[frames] questions 583, initially-wrong receivers 851; SUFF-JUDGE verdicts {'SUFFICIENT': 74, 'INSUFFICIENT': 493, 'AMBIGUOUS': 16, 'UNPARSED': 0}; reader-only accuracy 0.338
+   still wrong after I2 | all                                                n= 851  0.855 [0.829, 0.880]
+   still wrong after I2 | SUFFICIENT                                         n=  74  0.311 [0.181, 0.438]
+   still wrong after I2 | INSUFFICIENT or AMBIGUOUS                          n= 777  0.907 [0.886, 0.928]
+   still wrong after I2 | reader correct                                     n= 166  0.422 [0.341, 0.500]
+   still wrong after I2 | reader wrong                                       n= 685  0.961 [0.946, 0.974]
+   still wrong after I2 | doubly sufficient (SUFFICIENT and reader correct)  n=  57  0.105 [0.034, 0.192]
+   share of all I2 failures that occur on SUFFICIENT items: 0.032
+   human labels available: 0 questions (analysis pending until both workbooks are filled)
+[hotpot] questions 1000, initially-wrong receivers 1315; SUFF-JUDGE verdicts {'SUFFICIENT': 926, 'INSUFFICIENT': 56, 'AMBIGUOUS': 18, 'UNPARSED': 0}; reader-only accuracy 0.609
+   still wrong after I2 | all                                                n=1315  0.636 [0.604, 0.666]
+   still wrong after I2 | SUFFICIENT                                         n=1203  0.614 [0.581, 0.647]
+   still wrong after I2 | INSUFFICIENT or AMBIGUOUS                          n= 112  0.866 [0.789, 0.930]
+   still wrong after I2 | reader correct                                     n= 584  0.250 [0.210, 0.289]
+   still wrong after I2 | reader wrong                                       n= 731  0.944 [0.925, 0.961]
+   still wrong after I2 | doubly sufficient (SUFFICIENT and reader correct)  n= 564  0.239 [0.199, 0.279]
+   share of all I2 failures that occur on SUFFICIENT items: 0.884
+   human labels available: 0 questions (analysis pending until both workbooks are filled)
+SUFF-JUDGE = frozen judge model with reference answer + injected passages only; READER = agent model with injected passages only. Both are model proxies, not human verification.

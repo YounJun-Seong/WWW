@@ -1,0 +1,13 @@
+=== B3 support recall x placement, HotpotQA final n=1000 (EM; BX pre-specified; POST-HOC overall) ===
+cell        MAS  NoComm  P-int                      round-0 holder / other
+NONE      0.149   0.114  +3.5 pp [+2.2, +4.8]       0.129 / 0.117
+P_EXCL    0.301   0.233  +6.8 pp [+4.8, +8.9]       0.339 / 0.135
+P_SHAR    0.357   0.318  +3.9 pp [+2.2, +5.6]       0.339 / 0.339
+F_SPLIT   0.496   0.331  +16.5 pp [+13.9, +19.3]    0.339 / 0.319
+F_CONC    0.589   0.428  +16.1 pp [+13.7, +18.5]    0.599 / 0.139
+F_SHAR    0.605   0.579  +2.6 pp [+1.4, +4.0]       0.599 / 0.597
+B3-P1 P-int(F_SPLIT) − P-int(F_SHAR) = +13.9 pp [+11.0, +16.9]
+B3-P2 P-int(P_EXCL) − P-int(P_SHAR) = +2.9 pp [+0.5, +5.3]
+B3-P3 P-int(F_SPLIT) − P-int(F_CONC) = +0.4 pp [-2.9, +3.7]
+B3-P4 retrieval floor (MAS acc, NONE) 0.149; utilisation failure (1 − MAS acc, F_SHAR) 0.395 [0.364, 0.425]
+team accuracy by recall (MAS / NoComm): 0: 0.149 / 0.114; 1: 0.329 / 0.276; 2: 0.563 / 0.446

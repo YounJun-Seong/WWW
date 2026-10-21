@@ -1,0 +1,6 @@
+=== R12 retrieval-noise stress, frames final n=580 (POST-HOC) ===
+  No-comm final 0.252
+  R1_FULL       final 0.357; −FULL +0.0 pp [+0.0, +0.0]; −NC +10.5 pp [+7.2, +13.6]; correction 0.141 harm 0.024; words sent 594
+  R12_N3        final 0.348; −FULL -0.9 pp [-2.8, +1.0]; −NC +9.7 pp [+6.6, +12.6]; correction 0.146 harm 0.044; words sent 953
+  R12_N6        final 0.353; −FULL -0.3 pp [-2.4, +1.6]; −NC +10.2 pp [+7.1, +13.3]; correction 0.143 harm 0.034; words sent 1312
+  R12_GOLDLAST  final 0.355; −FULL -0.2 pp [-1.7, +1.4]; −NC +10.3 pp [+7.2, +13.4]; correction 0.150 harm 0.034; words sent 594

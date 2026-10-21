@@ -1,0 +1,6 @@
+=== R10 message length / relevance controls, hotpot final n=1000 (POST-HOC) ===
+  No-comm final 0.354
+  R1_FULL       final 0.559; −FULL +0.0 pp [+0.0, +0.0]; −NC +20.5 pp [+17.8, +23.4]; correction 0.354 harm 0.019; words sent 451
+  R10_SHORT     final 0.551; −FULL -0.8 pp [-2.3, +0.7]; −NC +19.7 pp [+17.0, +22.6]; correction 0.351 harm 0.050; words sent 29
+  R10_HARDNEG   final 0.397; −FULL -16.2 pp [-18.8, -13.7]; −NC +4.3 pp [+2.4, +6.3]; correction 0.026 harm 0.029; words sent 441
+  R10_RANDNEG   final 0.387; −FULL -17.2 pp [-19.9, -14.5]; −NC +3.3 pp [+1.4, +5.3]; correction 0.014 harm 0.032; words sent 451

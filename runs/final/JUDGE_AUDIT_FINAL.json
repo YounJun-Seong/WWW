@@ -1,0 +1,45 @@
+{
+ "overall": {
+  "agreement": 0.95,
+  "kappa": 0.8999999999999999
+ },
+ "MAS_vs_NOCOMM": {
+  "n_questions": 20,
+  "N_discordant": 91,
+  "judge_diff": 0.10416666666666667,
+  "judge_gap_sample": 0.9,
+  "human_gap_sample": 0.8,
+  "agreement": 0.95,
+  "human_adjusted_diff": [
+   0.08958333333333333,
+   0.06770833333333334,
+   0.10416666666666667
+  ]
+ },
+ "MAS_vs_POOL": {
+  "n_questions": 10,
+  "N_discordant": 98,
+  "judge_diff": 0.009615384615384616,
+  "judge_gap_sample": -0.2,
+  "human_gap_sample": -0.3,
+  "agreement": 0.95,
+  "human_adjusted_diff": [
+   -0.0060897435897435855,
+   -0.037500000000000006,
+   0.009615384615384616
+  ]
+ },
+ "MAS_vs_SC": {
+  "n_questions": 10,
+  "N_discordant": 103,
+  "judge_diff": -0.014423076923076924,
+  "judge_gap_sample": -0.4,
+  "human_gap_sample": -0.3,
+  "agreement": 0.95,
+  "human_adjusted_diff": [
+   0.0020833333333333363,
+   -0.014423076923076924,
+   0.035096153846153846
+  ]
+ }
+}

@@ -1,0 +1,622 @@
+{
+ "method": "multi_agent_docs",
+ "n": 53,
+ "with_result": 53,
+ "judged": 53,
+ "accuracy_judge": 0.018867924528301886,
+ "f1": 0.0,
+ "searched_seen": 21,
+ "transmitted_seen": 3,
+ "correct_given_transmitted": 0.0,
+ "correct_given_not_transmitted": 0.02,
+ "by_source": {
+  "browsecompplus": {
+   "n": 5,
+   "correct": 1
+  },
+  "gaia": {
+   "n": 13,
+   "correct": 0
+  },
+  "hle": {
+   "n": 31,
+   "correct": 0
+  },
+  "webwalkerqa": {
+   "n": 4,
+   "correct": 0
+  }
+ },
+ "accuracy_all53_missing_as_wrong": 0.018867924528301886,
+ "deviations": [
+  "questions without a result (AgentWebBench's own prompt truncation raises on malformed document JSON, or search-API errors, on every retry) are reported as missing and counted wrong in accuracy_all53",
+  "centralized `classical` method unavailable: public search API requires a website parameter",
+  "judge = AgentWebBench judge prompt with our local Qwen3-32B-FP8, not their OpenAI judge",
+  "AgentWebBench CONCURRENT_NUM 32 -> 8; Qwen2.5-14B-Instruct max input 28000 tokens"
+ ],
+ "rows": [
+  {
+   "id": 0,
+   "source": "webwalkerqa",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 6
+  },
+  {
+   "id": 1,
+   "source": "webwalkerqa",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 8
+  },
+  {
+   "id": 2,
+   "source": "webwalkerqa",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 7
+  },
+  {
+   "id": 3,
+   "source": "webwalkerqa",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 4
+  },
+  {
+   "id": 4,
+   "source": "gaia",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 7
+  },
+  {
+   "id": 5,
+   "source": "gaia",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 5
+  },
+  {
+   "id": 6,
+   "source": "gaia",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": true,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 3
+  },
+  {
+   "id": 7,
+   "source": "gaia",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": true,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 6
+  },
+  {
+   "id": 8,
+   "source": "gaia",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 8
+  },
+  {
+   "id": 9,
+   "source": "gaia",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": true,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 2
+  },
+  {
+   "id": 10,
+   "source": "gaia",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 4,
+   "search_count": 1
+  },
+  {
+   "id": 11,
+   "source": "gaia",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 9
+  },
+  {
+   "id": 12,
+   "source": "gaia",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 6
+  },
+  {
+   "id": 13,
+   "source": "gaia",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 8
+  },
+  {
+   "id": 14,
+   "source": "gaia",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": true,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 6
+  },
+  {
+   "id": 15,
+   "source": "gaia",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": true,
+   "transmitted_seen": true,
+   "turns": 15,
+   "search_count": 3
+  },
+  {
+   "id": 16,
+   "source": "gaia",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": true,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 2
+  },
+  {
+   "id": 17,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": true,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 4
+  },
+  {
+   "id": 18,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 2
+  },
+  {
+   "id": 19,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": true,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 2
+  },
+  {
+   "id": 20,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 1
+  },
+  {
+   "id": 21,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 5
+  },
+  {
+   "id": 22,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": true,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 7
+  },
+  {
+   "id": 23,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 2
+  },
+  {
+   "id": 24,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 7
+  },
+  {
+   "id": 25,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 2
+  },
+  {
+   "id": 26,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": true,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 6
+  },
+  {
+   "id": 27,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": true,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 2
+  },
+  {
+   "id": 28,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 5
+  },
+  {
+   "id": 29,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 5
+  },
+  {
+   "id": 30,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": true,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 1
+  },
+  {
+   "id": 31,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": true,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 2
+  },
+  {
+   "id": 32,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 2
+  },
+  {
+   "id": 33,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 1
+  },
+  {
+   "id": 34,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 1
+  },
+  {
+   "id": 35,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 6
+  },
+  {
+   "id": 36,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": true,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 3
+  },
+  {
+   "id": 37,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": true,
+   "transmitted_seen": true,
+   "turns": 15,
+   "search_count": 1
+  },
+  {
+   "id": 38,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": true,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 2
+  },
+  {
+   "id": 39,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": true,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 2
+  },
+  {
+   "id": 40,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": true,
+   "transmitted_seen": true,
+   "turns": 15,
+   "search_count": 7
+  },
+  {
+   "id": 41,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": true,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 2
+  },
+  {
+   "id": 42,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": true,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 3
+  },
+  {
+   "id": 43,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 7
+  },
+  {
+   "id": 44,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 2
+  },
+  {
+   "id": 45,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": true,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 1
+  },
+  {
+   "id": 46,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 4
+  },
+  {
+   "id": 47,
+   "source": "hle",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 3
+  },
+  {
+   "id": 48,
+   "source": "browsecompplus",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 2
+  },
+  {
+   "id": 49,
+   "source": "browsecompplus",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": true,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 0
+  },
+  {
+   "id": 50,
+   "source": "browsecompplus",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 3
+  },
+  {
+   "id": 51,
+   "source": "browsecompplus",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 1
+  },
+  {
+   "id": 52,
+   "source": "browsecompplus",
+   "has_result": true,
+   "f1": 0.0,
+   "judged": false,
+   "searched_seen": false,
+   "transmitted_seen": false,
+   "turns": 15,
+   "search_count": 1
+  }
+ ]
+}

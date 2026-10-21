@@ -1,0 +1,128 @@
+{
+ "frames": {
+  "n_questions": 583,
+  "n_receivers_initially_wrong": 851,
+  "verdict_distribution_questions": {
+   "SUFFICIENT": 74,
+   "INSUFFICIENT": 493,
+   "AMBIGUOUS": 16,
+   "UNPARSED": 0
+  },
+  "reader_accuracy_questions": 0.3379073756432247,
+  "failure": {
+   "all": {
+    "n": 851,
+    "rate": [
+     0.8554641598119859,
+     0.8289156626506025,
+     0.8803716608594657
+    ]
+   },
+   "SUFFICIENT": {
+    "n": 74,
+    "rate": [
+     0.3108108108108108,
+     0.18055555555555555,
+     0.43836217255467425
+    ]
+   },
+   "INSUFFICIENT or AMBIGUOUS": {
+    "n": 777,
+    "rate": [
+     0.9073359073359073,
+     0.8857509627727856,
+     0.9276649746192893
+    ]
+   },
+   "reader correct": {
+    "n": 166,
+    "rate": [
+     0.42168674698795183,
+     0.34146341463414637,
+     0.5
+    ]
+   },
+   "reader wrong": {
+    "n": 685,
+    "rate": [
+     0.9605839416058394,
+     0.9455363409303083,
+     0.9743589743589743
+    ]
+   },
+   "doubly sufficient (SUFFICIENT and reader correct)": {
+    "n": 57,
+    "rate": [
+     0.10526315789473684,
+     0.03389830508474576,
+     0.19230769230769232
+    ]
+   }
+  },
+  "share_of_failures_on_SUFFICIENT": 0.03159340659340659,
+  "human_annotated_questions": 0
+ },
+ "hotpot": {
+  "n_questions": 1000,
+  "n_receivers_initially_wrong": 1315,
+  "verdict_distribution_questions": {
+   "SUFFICIENT": 926,
+   "INSUFFICIENT": 56,
+   "AMBIGUOUS": 18,
+   "UNPARSED": 0
+  },
+  "reader_accuracy_questions": 0.609,
+  "failure": {
+   "all": {
+    "n": 1315,
+    "rate": [
+     0.6357414448669202,
+     0.6044546850998463,
+     0.66592532169274
+    ]
+   },
+   "SUFFICIENT": {
+    "n": 1203,
+    "rate": [
+     0.6142975893599335,
+     0.5811818053220298,
+     0.6467753117928747
+    ]
+   },
+   "INSUFFICIENT or AMBIGUOUS": {
+    "n": 112,
+    "rate": [
+     0.8660714285714286,
+     0.7889908256880734,
+     0.9304347826086956
+    ]
+   },
+   "reader correct": {
+    "n": 584,
+    "rate": [
+     0.25,
+     0.21006905483243568,
+     0.2887343011135404
+    ]
+   },
+   "reader wrong": {
+    "n": 731,
+    "rate": [
+     0.9439124487004104,
+     0.9250702449567724,
+     0.9611401759421478
+    ]
+   },
+   "doubly sufficient (SUFFICIENT and reader correct)": {
+    "n": 564,
+    "rate": [
+     0.2393617021276596,
+     0.19895241460760882,
+     0.2786611066272083
+    ]
+   }
+  },
+  "share_of_failures_on_SUFFICIENT": 0.8839712918660287,
+  "human_annotated_questions": 0
+ }
+}

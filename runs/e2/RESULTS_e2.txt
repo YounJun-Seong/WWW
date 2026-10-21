@@ -1,0 +1,8 @@
+=== E2 overlap × gold placement, FRAMES final eligible n=427 (judge) ===
+PRIMARY placement effect (EXCL − SHAR) = +5.6 pp [+3.0, +8.3] -> partner-exclusive gold evidence drives the communication gain
+PRIMARY overlap effect (LOW − HIGH)    = +0.0 pp [-2.3, +2.5] -> not established
+interaction = +0.9 pp [-3.0, +5.2]
+  EXCL_LOW  P-int +7.3 pp [+4.4, +10.3]; MAS 0.314 No-comm 0.241; round-0 acc 0.226 agree 0.133; shared 0.0
+  EXCL_HIGH P-int +6.8 pp [+4.0, +9.6]; MAS 0.302 No-comm 0.234; round-0 acc 0.225 agree 0.152; shared 3.0
+  SHAR_LOW  P-int +1.2 pp [-1.2, +3.5]; MAS 0.330 No-comm 0.319; round-0 acc 0.321 agree 0.370; shared 1.9
+  SHAR_HIGH P-int +1.6 pp [-0.2, +3.5]; MAS 0.311 No-comm 0.295; round-0 acc 0.315 agree 0.658; shared 4.9

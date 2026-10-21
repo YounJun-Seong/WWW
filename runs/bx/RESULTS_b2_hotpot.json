@@ -1,0 +1,288 @@
+{
+ "dataset": "hotpot",
+ "n_pilot": 500,
+ "n_final": 1000,
+ "features": [
+  "disagree",
+  "hedge",
+  "gap",
+  "nov",
+  "missing",
+  "alen"
+ ],
+ "coef": {
+  "disagree": 0.9731240319856215,
+  "hedge": 0.09215288192194118,
+  "gap": -0.10542566309739103,
+  "nov": 0.2926896447908883,
+  "missing": 0.0,
+  "alen": 0.0011274055377339654
+ },
+ "budgets": {
+  "0.2": {
+   "DISAGREE-RANK": {
+    "activation": 0.201,
+    "accuracy": 0.41,
+    "tokens": 5089.363,
+    "minus_RANDOM_at_b": [
+     0.018800000000000004,
+     0.005400000000000003,
+     0.032400000000000005
+    ],
+    "minus_RANDOM_at_realised": [
+     0.018613999999999995,
+     0.005241999999999996,
+     0.03220712499999999
+    ],
+    "minus_DISAGREE_RANK": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "NOVELTY-RANK": {
+    "activation": 0.187,
+    "accuracy": 0.401,
+    "tokens": 5074.048,
+    "minus_RANDOM_at_b": [
+     0.009800000000000001,
+     -0.0022,
+     0.022600000000000002
+    ],
+    "minus_RANDOM_at_realised": [
+     0.012217999999999996,
+     0.00015299999999999846,
+     0.025095999999999997
+    ],
+    "minus_DISAGREE_RANK": [
+     -0.009,
+     -0.017,
+     -0.002
+    ]
+   },
+   "EVIDENCE-AWARE": {
+    "activation": 0.179,
+    "accuracy": 0.403,
+    "tokens": 5077.941,
+    "minus_RANDOM_at_b": [
+     0.011800000000000001,
+     -0.00039999999999999856,
+     0.025
+    ],
+    "minus_RANDOM_at_realised": [
+     0.015705999999999994,
+     0.0036622249999999973,
+     0.028958999999999995
+    ],
+    "minus_DISAGREE_RANK": [
+     -0.007,
+     -0.02,
+     0.006
+    ]
+   }
+  },
+  "0.4": {
+   "DISAGREE-RANK": {
+    "activation": 0.415,
+    "accuracy": 0.454,
+    "tokens": 5425.089,
+    "minus_RANDOM_at_b": [
+     0.025599999999999998,
+     0.010799999999999997,
+     0.04039999999999999
+    ],
+    "minus_RANDOM_at_realised": [
+     0.022809999999999993,
+     0.0081495,
+     0.037434999999999996
+    ],
+    "minus_DISAGREE_RANK": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "NOVELTY-RANK": {
+    "activation": 0.417,
+    "accuracy": 0.44,
+    "tokens": 5434.757,
+    "minus_RANDOM_at_b": [
+     0.011599999999999997,
+     -0.0030000000000000044,
+     0.026
+    ],
+    "minus_RANDOM_at_realised": [
+     0.008438,
+     -0.006226200000000002,
+     0.022851
+    ],
+    "minus_DISAGREE_RANK": [
+     -0.014,
+     -0.024,
+     -0.004
+    ]
+   },
+   "EVIDENCE-AWARE": {
+    "activation": 0.397,
+    "accuracy": 0.463,
+    "tokens": 5419.488,
+    "minus_RANDOM_at_b": [
+     0.03459999999999999,
+     0.019799999999999998,
+     0.0498
+    ],
+    "minus_RANDOM_at_realised": [
+     0.035157999999999995,
+     0.020318624999999996,
+     0.050349374999999995
+    ],
+    "minus_DISAGREE_RANK": [
+     0.009,
+     -0.003,
+     0.021
+    ]
+   }
+  },
+  "0.6": {
+   "DISAGREE-RANK": {
+    "activation": 0.616,
+    "accuracy": 0.495,
+    "tokens": 5767.06,
+    "minus_RANDOM_at_b": [
+     0.029400000000000003,
+     0.016400000000000005,
+     0.0422
+    ],
+    "minus_RANDOM_at_realised": [
+     0.026424,
+     0.013574400000000004,
+     0.039176
+    ],
+    "minus_DISAGREE_RANK": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "NOVELTY-RANK": {
+    "activation": 0.607,
+    "accuracy": 0.47,
+    "tokens": 5750.886,
+    "minus_RANDOM_at_b": [
+     0.004400000000000003,
+     -0.009599999999999996,
+     0.018200000000000004
+    ],
+    "minus_RANDOM_at_realised": [
+     0.0030980000000000027,
+     -0.011003099999999997,
+     0.016923774999999988
+    ],
+    "minus_DISAGREE_RANK": [
+     -0.025,
+     -0.038,
+     -0.013
+    ]
+   },
+   "EVIDENCE-AWARE": {
+    "activation": 0.601,
+    "accuracy": 0.503,
+    "tokens": 5748.242,
+    "minus_RANDOM_at_b": [
+     0.0374,
+     0.024595000000000006,
+     0.05
+    ],
+    "minus_RANDOM_at_realised": [
+     0.037214000000000004,
+     0.02439220000000001,
+     0.04980500000000001
+    ],
+    "minus_DISAGREE_RANK": [
+     0.008,
+     -0.001,
+     0.018
+    ]
+   }
+  },
+  "0.8": {
+   "DISAGREE-RANK": {
+    "activation": 0.796,
+    "accuracy": 0.531,
+    "tokens": 6066.854,
+    "minus_RANDOM_at_b": [
+     0.028199999999999992,
+     0.020799999999999992,
+     0.03519999999999999
+    ],
+    "minus_RANDOM_at_realised": [
+     0.02894399999999999,
+     0.02151599999999999,
+     0.03600399999999999
+    ],
+    "minus_DISAGREE_RANK": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "NOVELTY-RANK": {
+    "activation": 0.805,
+    "accuracy": 0.512,
+    "tokens": 6099.022,
+    "minus_RANDOM_at_b": [
+     0.009199999999999993,
+     -0.0018000000000000086,
+     0.01979999999999999
+    ],
+    "minus_RANDOM_at_realised": [
+     0.008269999999999993,
+     -0.0027556250000000102,
+     0.01885499999999999
+    ],
+    "minus_DISAGREE_RANK": [
+     -0.019,
+     -0.032,
+     -0.006
+    ]
+   },
+   "EVIDENCE-AWARE": {
+    "activation": 0.807,
+    "accuracy": 0.531,
+    "tokens": 6091.481,
+    "minus_RANDOM_at_b": [
+     0.028199999999999992,
+     0.020999999999999994,
+     0.03519999999999999
+    ],
+    "minus_RANDOM_at_realised": [
+     0.02689799999999999,
+     0.01973999999999999,
+     0.03375799999999999
+    ],
+    "minus_DISAGREE_RANK": [
+     0.0,
+     -0.003,
+     0.003
+    ]
+   }
+  }
+ },
+ "secondary": {
+  "activation": 0.792,
+  "ROUTE_PEER": {
+   "accuracy": 0.53,
+   "tokens": 6059.508
+  },
+  "ROUTE_RETRIEVE": {
+   "accuracy": 0.555,
+   "tokens": 7473.682
+  },
+  "RETRIEVE_minus_PEER": [
+   0.025,
+   0.007,
+   0.044
+  ]
+ },
+ "promotion_budgets": []
+}

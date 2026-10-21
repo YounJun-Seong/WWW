@@ -1,0 +1,177 @@
+{
+ "n": 1000,
+ "primary": {
+  "DiD_S_UNION": [
+   0.168,
+   0.14,
+   0.197
+  ]
+ },
+ "secondary": {
+  "DiD_S_5": [
+   0.162,
+   0.134,
+   0.19
+  ],
+  "DiD_S_UNION_T7": [
+   0.169,
+   0.14,
+   0.199
+  ]
+ },
+ "conditions": {
+  "D": {
+   "em": {
+    "A0": 0.347,
+    "B0": 0.338,
+    "A1m": 0.537,
+    "B1m": 0.545,
+    "A1n": 0.327,
+    "B1n": 0.311,
+    "MAS": 0.54,
+    "NOCOMM": 0.354
+   },
+   "MAS_f1": 0.6851724544492189,
+   "P_int": [
+    0.186,
+    0.16,
+    0.212
+   ],
+   "MAS_minus_Pooled": [
+    -0.04,
+    -0.062,
+    -0.018
+   ],
+   "MAS_minus_MAS_D": null,
+   "NOCOMM_minus_NOCOMM_D": null,
+   "round0_answer_agreement": 0.208,
+   "kappa0": 0.539,
+   "kappa_MAS": 0.577,
+   "n_discordant": 393,
+   "BRR": 0.9491094147582697,
+   "HRR": 0.15267175572519084,
+   "tokens_MAS": 6428.698
+  },
+  "S_UNION": {
+   "em": {
+    "A0": 0.579,
+    "B0": 0.58,
+    "A1m": 0.585,
+    "B1m": 0.586,
+    "A1n": 0.554,
+    "B1n": 0.562,
+    "MAS": 0.582,
+    "NOCOMM": 0.564
+   },
+   "MAS_f1": 0.733475337179493,
+   "P_int": [
+    0.018,
+    0.006,
+    0.03
+   ],
+   "MAS_minus_Pooled": [
+    0.002,
+    -0.008,
+    0.012
+   ],
+   "MAS_minus_MAS_D": [
+    0.042,
+    0.02,
+    0.064
+   ],
+   "NOCOMM_minus_NOCOMM_D": [
+    0.21,
+    0.181,
+    0.24
+   ],
+   "round0_answer_agreement": 0.916,
+   "kappa0": 0.592,
+   "kappa_MAS": 0.593,
+   "n_discordant": 25,
+   "BRR": 0.84,
+   "HRR": 0.56,
+   "tokens_MAS": 10630.463
+  },
+  "S_5": {
+   "em": {
+    "A0": 0.347,
+    "B0": 0.341,
+    "A1m": 0.353,
+    "B1m": 0.354,
+    "A1n": 0.327,
+    "B1n": 0.324,
+    "MAS": 0.349,
+    "NOCOMM": 0.325
+   },
+   "MAS_f1": 0.4706770979945001,
+   "P_int": [
+    0.024,
+    0.013,
+    0.036
+   ],
+   "MAS_minus_Pooled": [
+    -0.231,
+    -0.26,
+    -0.202
+   ],
+   "MAS_minus_MAS_D": [
+    -0.191,
+    -0.22,
+    -0.162
+   ],
+   "NOCOMM_minus_NOCOMM_D": [
+    -0.029,
+    -0.054,
+    -0.003975000000000364
+   ],
+   "round0_answer_agreement": 0.756,
+   "kappa0": 0.363,
+   "kappa_MAS": 0.365,
+   "n_discordant": 38,
+   "BRR": 0.9473684210526315,
+   "HRR": 0.5789473684210527,
+   "tokens_MAS": 6446.437
+  },
+  "S_UNION_T7": {
+   "em": {
+    "A0": 0.574,
+    "B0": 0.56,
+    "A1m": 0.585,
+    "B1m": 0.593,
+    "A1n": 0.56,
+    "B1n": 0.537,
+    "MAS": 0.587,
+    "NOCOMM": 0.57
+   },
+   "MAS_f1": 0.7378154801566557,
+   "P_int": [
+    0.017,
+    0.003,
+    0.031
+   ],
+   "MAS_minus_Pooled": [
+    0.007,
+    -0.011,
+    0.025
+   ],
+   "MAS_minus_MAS_D": [
+    0.047,
+    0.024975000000000025,
+    0.069
+   ],
+   "NOCOMM_minus_NOCOMM_D": [
+    0.216,
+    0.186,
+    0.246
+   ],
+   "round0_answer_agreement": 0.72,
+   "kappa0": 0.627,
+   "kappa_MAS": 0.618,
+   "n_discordant": 120,
+   "BRR": 0.8666666666666667,
+   "HRR": 0.4666666666666667,
+   "tokens_MAS": 10719.815
+  }
+ },
+ "reading": "distribution moderates the communication effect"
+}

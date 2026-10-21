@@ -1,0 +1,7 @@
+=== A4 evidence-transfer funnel, hotpot final, receivers initially wrong (POST-HOC; descriptive, not causal) ===
+  0 receiver initially wrong                                  1315
+  1 available (partner side holds gold)                       1139   (0.866 of previous)
+  2 retrieved by partner                                      1139   (1.000 of previous)
+  3 transmitted (partner passages are always sent in full)    1139   (1.000 of previous)
+  4 corrected (receiver right after revision)                  449   (0.394 of previous)
+  5 preserved (team final answer right)                        415   (0.924 of previous)

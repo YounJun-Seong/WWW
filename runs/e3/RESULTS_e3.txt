@@ -1,0 +1,6 @@
+=== E3 topic-partitioned retrieval (PEOPLE vs WORLD), FRAMES final n=624 (judge) ===
+PRIMARY P-int MAS − No-comm = +9.6 pp [+6.9, +12.5]
+PRIMARY P-util MAS − Pooled = -1.8 pp [-5.0, +1.4]
+MAS − SC-4 = -4.2 pp [-7.4, -0.8]; DiD (topic − random partition) = -0.8 pp [-4.5, +2.9]
+accuracy: MAS 0.335, NOCOMM 0.239, A0 0.236, B0 0.260, POOL 0.353, SC 0.377; MAS tokens/q 8108
+gold pages span both domains: 0.519; discordant 161: partner held 0.919, partner retrieved 0.870

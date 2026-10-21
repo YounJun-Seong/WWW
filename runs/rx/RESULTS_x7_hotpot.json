@@ -1,0 +1,127 @@
+{
+ "dataset": "hotpot",
+ "n_final": 1000,
+ "n_pilot": 500,
+ "policies": {
+  "NeverComm": {
+   "threshold": null,
+   "activation": 0.0,
+   "accuracy": 0.354,
+   "calls": 4.815,
+   "input": 4072.709,
+   "output": 724.481,
+   "minus_AlwaysComm": [
+    -0.186,
+    -0.212,
+    -0.16
+   ],
+   "cost_note": null
+  },
+  "AlwaysComm": {
+   "threshold": null,
+   "activation": 1.0,
+   "accuracy": 0.54,
+   "calls": 4.184,
+   "input": 5723.754,
+   "output": 704.944,
+   "minus_AlwaysComm": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cost_note": null
+  },
+  "Disagreement": {
+   "threshold": null,
+   "activation": 0.792,
+   "accuracy": 0.53,
+   "calls": 4.214,
+   "input": 5356.947,
+   "output": 702.561,
+   "minus_AlwaysComm": [
+    -0.01,
+    -0.017,
+    -0.004
+   ],
+   "cost_note": null
+  },
+  "LowConfidence": {
+   "threshold": 0,
+   "activation": 1.0,
+   "accuracy": 0.54,
+   "calls": 4.184,
+   "input": 5723.754,
+   "output": 704.944,
+   "minus_AlwaysComm": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cost_note": null
+  },
+  "ScoreGap": {
+   "threshold": 0.0,
+   "activation": 1.0,
+   "accuracy": 0.54,
+   "calls": 4.184,
+   "input": 5723.754,
+   "output": 704.944,
+   "minus_AlwaysComm": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cost_note": null
+  },
+  "Disagree_or_ScoreGap": {
+   "threshold": 0.15,
+   "activation": 0.915,
+   "accuracy": 0.537,
+   "calls": 4.197,
+   "input": 5567.751,
+   "output": 704.653,
+   "minus_AlwaysComm": [
+    -0.003,
+    -0.007,
+    0.0
+   ],
+   "cost_note": null
+  },
+  "ContentNovelty": {
+   "threshold": 0.45,
+   "activation": 0.989,
+   "accuracy": 0.54,
+   "calls": 4.191,
+   "input": 5726.706,
+   "output": 704.914,
+   "minus_AlwaysComm": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cost_note": "content check charged: partner passages received on every question"
+  },
+  "ContentNovelty_or_Disagree": {
+   "threshold": 0.65,
+   "activation": 0.959,
+   "accuracy": 0.539,
+   "calls": 4.191,
+   "input": 5726.945,
+   "output": 704.431,
+   "minus_AlwaysComm": [
+    -0.001,
+    -0.003,
+    0.0
+   ],
+   "cost_note": "content check charged: partner passages received on every question"
+  },
+  "Oracle (upper bound)": {
+   "threshold": null,
+   "activation": 0.202,
+   "accuracy": 0.556,
+   "calls": 4.641,
+   "input": 4388.096,
+   "output": 712.843
+  }
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "n": 1000,
+ "accuracy": {
+  "F_SPLIT": {
+   "EXISTING": [
+    0.496,
+    0.465,
+    0.527
+   ],
+   "EVIDENCE_AWARE": [
+    0.512,
+    0.481,
+    0.544
+   ],
+   "ORACLE": [
+    0.553,
+    0.522,
+    0.584
+   ]
+  },
+  "F_CONC": {
+   "EXISTING": [
+    0.589,
+    0.559,
+    0.619
+   ],
+   "EVIDENCE_AWARE": [
+    0.588,
+    0.558,
+    0.619
+   ],
+   "ORACLE": [
+    0.612,
+    0.582,
+    0.642
+   ]
+  },
+  "F_SHAR": {
+   "EXISTING": [
+    0.605,
+    0.575,
+    0.636
+   ],
+   "EVIDENCE_AWARE": [
+    0.608,
+    0.578,
+    0.639
+   ],
+   "ORACLE": [
+    0.629,
+    0.599,
+    0.659
+   ]
+  }
+ },
+ "lost_in_synthesis": {
+  "F_SPLIT": {
+   "EXISTING": 57,
+   "EVIDENCE_AWARE": 41
+  },
+  "F_CONC": {
+   "EXISTING": 24,
+   "EVIDENCE_AWARE": 24
+  },
+  "F_SHAR": {
+   "EXISTING": 24,
+   "EVIDENCE_AWARE": 21
+  }
+ },
+ "gap_split_minus_conc": {
+  "EXISTING": [
+   -0.093,
+   -0.117,
+   -0.068
+  ],
+  "EVIDENCE_AWARE": [
+   -0.076,
+   -0.1,
+   -0.051
+  ],
+  "ORACLE": [
+   -0.059,
+   -0.082,
+   -0.03697500000000036
+  ]
+ },
+ "evidence_aware_minus_existing": {
+  "F_SPLIT": [
+   0.016,
+   0.005,
+   0.027
+  ],
+  "F_CONC": [
+   -0.001,
+   -0.008,
+   0.006
+  ],
+  "F_SHAR": [
+   0.003,
+   -0.001,
+   0.008
+  ]
+ }
+}

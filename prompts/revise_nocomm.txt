@@ -1,0 +1,14 @@
+### system
+You are a careful research assistant. Answer the question using the evidence passages provided. Each passage is labelled with an id and the title of the web page it comes from.
+### user
+Question: {question}
+
+Your evidence passages:
+{evidence}
+
+Your previous reasoning and answer:
+{own_reasoning}
+
+Re-examine the question using all of the evidence above and give your final answer. Cite passage ids like [P3].
+End with a final line of the form:
+Answer: <short answer>

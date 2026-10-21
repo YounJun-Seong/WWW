@@ -1,0 +1,352 @@
+[
+ {
+  "item": 1,
+  "idx": 98,
+  "role": "POOL",
+  "judge": true,
+  "stratum": "judge_true"
+ },
+ {
+  "item": 2,
+  "idx": 408,
+  "role": "B1n",
+  "judge": false,
+  "stratum": "judge_false"
+ },
+ {
+  "item": 3,
+  "idx": 309,
+  "role": "A0",
+  "judge": true,
+  "stratum": "judge_true"
+ },
+ {
+  "item": 4,
+  "idx": 544,
+  "role": "PLACEBO_A",
+  "judge": true,
+  "stratum": "judge_true"
+ },
+ {
+  "item": 5,
+  "idx": 669,
+  "role": "B1m",
+  "judge": true,
+  "stratum": "ambiguous"
+ },
+ {
+  "item": 6,
+  "idx": 674,
+  "role": "POOL",
+  "judge": true,
+  "stratum": "judge_true"
+ },
+ {
+  "item": 7,
+  "idx": 389,
+  "role": "A1n",
+  "judge": false,
+  "stratum": "judge_false"
+ },
+ {
+  "item": 8,
+  "idx": 803,
+  "role": "SC",
+  "judge": false,
+  "stratum": "judge_false"
+ },
+ {
+  "item": 9,
+  "idx": 518,
+  "role": "A1m",
+  "judge": true,
+  "stratum": "judge_true"
+ },
+ {
+  "item": 10,
+  "idx": 550,
+  "role": "MAS",
+  "judge": false,
+  "stratum": "judge_false"
+ },
+ {
+  "item": 11,
+  "idx": 264,
+  "role": "POOL",
+  "judge": false,
+  "stratum": "judge_false"
+ },
+ {
+  "item": 12,
+  "idx": 435,
+  "role": "PLACEBO_A",
+  "judge": true,
+  "stratum": "judge_true"
+ },
+ {
+  "item": 13,
+  "idx": 380,
+  "role": "A1m",
+  "judge": false,
+  "stratum": "judge_false"
+ },
+ {
+  "item": 14,
+  "idx": 280,
+  "role": "B1m",
+  "judge": true,
+  "stratum": "ambiguous"
+ },
+ {
+  "item": 15,
+  "idx": 280,
+  "role": "A1m",
+  "judge": true,
+  "stratum": "ambiguous"
+ },
+ {
+  "item": 16,
+  "idx": 581,
+  "role": "B0",
+  "judge": true,
+  "stratum": "ambiguous"
+ },
+ {
+  "item": 17,
+  "idx": 105,
+  "role": "B1n",
+  "judge": false,
+  "stratum": "judge_false"
+ },
+ {
+  "item": 18,
+  "idx": 319,
+  "role": "A0",
+  "judge": true,
+  "stratum": "judge_true"
+ },
+ {
+  "item": 19,
+  "idx": 513,
+  "role": "SC",
+  "judge": true,
+  "stratum": "judge_true"
+ },
+ {
+  "item": 20,
+  "idx": 597,
+  "role": "PLACEBO_A",
+  "judge": true,
+  "stratum": "judge_true"
+ },
+ {
+  "item": 21,
+  "idx": 233,
+  "role": "A0",
+  "judge": true,
+  "stratum": "judge_true"
+ },
+ {
+  "item": 22,
+  "idx": 604,
+  "role": "MAS",
+  "judge": true,
+  "stratum": "judge_true"
+ },
+ {
+  "item": 23,
+  "idx": 663,
+  "role": "MAS",
+  "judge": false,
+  "stratum": "judge_false"
+ },
+ {
+  "item": 24,
+  "idx": 795,
+  "role": "B1m",
+  "judge": true,
+  "stratum": "judge_true"
+ },
+ {
+  "item": 25,
+  "idx": 203,
+  "role": "PLACEBO_A",
+  "judge": false,
+  "stratum": "judge_false"
+ },
+ {
+  "item": 26,
+  "idx": 322,
+  "role": "SC",
+  "judge": false,
+  "stratum": "judge_false"
+ },
+ {
+  "item": 27,
+  "idx": 14,
+  "role": "NOCOMM",
+  "judge": true,
+  "stratum": "ambiguous"
+ },
+ {
+  "item": 28,
+  "idx": 393,
+  "role": "POOL",
+  "judge": true,
+  "stratum": "judge_true"
+ },
+ {
+  "item": 29,
+  "idx": 92,
+  "role": "A0",
+  "judge": true,
+  "stratum": "judge_true"
+ },
+ {
+  "item": 30,
+  "idx": 181,
+  "role": "POOL",
+  "judge": true,
+  "stratum": "ambiguous"
+ },
+ {
+  "item": 31,
+  "idx": 390,
+  "role": "A1m",
+  "judge": false,
+  "stratum": "judge_false"
+ },
+ {
+  "item": 32,
+  "idx": 118,
+  "role": "POOL",
+  "judge": false,
+  "stratum": "judge_false"
+ },
+ {
+  "item": 33,
+  "idx": 382,
+  "role": "PLACEBO_A",
+  "judge": true,
+  "stratum": "judge_true"
+ },
+ {
+  "item": 34,
+  "idx": 603,
+  "role": "A1n",
+  "judge": true,
+  "stratum": "ambiguous"
+ },
+ {
+  "item": 35,
+  "idx": 80,
+  "role": "SC",
+  "judge": true,
+  "stratum": "ambiguous"
+ },
+ {
+  "item": 36,
+  "idx": 454,
+  "role": "PLACEBO_A",
+  "judge": true,
+  "stratum": "judge_true"
+ },
+ {
+  "item": 37,
+  "idx": 796,
+  "role": "PLACEBO_A",
+  "judge": true,
+  "stratum": "judge_true"
+ },
+ {
+  "item": 38,
+  "idx": 187,
+  "role": "B0",
+  "judge": false,
+  "stratum": "judge_false"
+ },
+ {
+  "item": 39,
+  "idx": 277,
+  "role": "B1m",
+  "judge": false,
+  "stratum": "judge_false"
+ },
+ {
+  "item": 40,
+  "idx": 518,
+  "role": "NOCOMM",
+  "judge": true,
+  "stratum": "judge_true"
+ },
+ {
+  "item": 41,
+  "idx": 475,
+  "role": "POOL",
+  "judge": false,
+  "stratum": "judge_false"
+ },
+ {
+  "item": 42,
+  "idx": 319,
+  "role": "PLACEBO_A",
+  "judge": false,
+  "stratum": "judge_false"
+ },
+ {
+  "item": 43,
+  "idx": 81,
+  "role": "NOCOMM",
+  "judge": false,
+  "stratum": "judge_false"
+ },
+ {
+  "item": 44,
+  "idx": 477,
+  "role": "MAS",
+  "judge": false,
+  "stratum": "judge_false"
+ },
+ {
+  "item": 45,
+  "idx": 603,
+  "role": "SC",
+  "judge": true,
+  "stratum": "ambiguous"
+ },
+ {
+  "item": 46,
+  "idx": 543,
+  "role": "A1m",
+  "judge": true,
+  "stratum": "ambiguous"
+ },
+ {
+  "item": 47,
+  "idx": 142,
+  "role": "B0",
+  "judge": false,
+  "stratum": "judge_false"
+ },
+ {
+  "item": 48,
+  "idx": 473,
+  "role": "NOCOMM",
+  "judge": true,
+  "stratum": "judge_true"
+ },
+ {
+  "item": 49,
+  "idx": 261,
+  "role": "NOCOMM",
+  "judge": true,
+  "stratum": "judge_true"
+ },
+ {
+  "item": 50,
+  "idx": 621,
+  "role": "B1m",
+  "judge": false,
+  "stratum": "judge_false"
+ }
+]

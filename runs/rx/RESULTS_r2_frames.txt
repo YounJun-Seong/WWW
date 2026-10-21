@@ -1,0 +1,18 @@
+=== R2 evidence injection x sufficiency, frames final, questions with |G_inj| = 2: n=583 (POST-HOC) ===
+I0 = the receiver's frozen No-comm revision; I1a/I1b = one gold passage; I2 = both; I3 = both + 3 hard negatives; I4 = both + partner's answer
+gold = gold-page passage (page-level)
+own_gold=0|init=wrong          n= 274  P(correct after): I0 0.000  I1 0.099  I2 0.212  I3 0.153  I4 0.212 | I1−I0 +9.9 pp [+7.3, +12.6]; I2−I1 +11.3 pp [+7.8, +15.1]; I3−I2 -5.8 pp [-9.5, -2.3]; I4−I2 +0.0 pp [-4.2, +4.3]
+own_gold=0|init=right          n=  48  P(correct after): I0 0.938  I1 0.948  I2 0.979  I3 0.979  I4 0.917 | I1−I0 +1.0 pp [-5.3, +8.5]; I2−I1 +3.1 pp [-3.7, +10.0]; I3−I2 +0.0 pp [-5.9, +5.9]; I4−I2 -6.2 pp [-15.9, +2.3]
+own_gold=1|init=wrong          n= 110  P(correct after): I0 0.000  I1 0.045  I2 0.109  I3 0.109  I4 0.136 | I1−I0 +4.5 pp [+2.0, +7.4]; I2−I1 +6.4 pp [+2.7, +10.6]; I3−I2 +0.0 pp [-2.6, +2.6]; I4−I2 +2.7 pp [-0.9, +6.9]
+own_gold=1|init=right          n=  48  P(correct after): I0 0.875  I1 0.979  I2 0.958  I3 0.958  I4 0.812 | I1−I0 +10.4 pp [+2.0, +20.0]; I2−I1 -2.1 pp [-7.7, +2.2]; I3−I2 +0.0 pp [-6.0, +6.0]; I4−I2 -14.6 pp [-26.8, -3.6]
+own_gold=2|init=wrong          n= 102  P(correct after): I0 0.020  I1 0.074  I2 0.137  I3 0.118  I4 0.167 | I1−I0 +5.4 pp [+1.1, +9.7]; I2−I1 +6.4 pp [+2.1, +11.2]; I3−I2 -2.0 pp [-6.8, +2.8]; I4−I2 +2.9 pp [-2.0, +8.2]
+own_gold=2|init=right          n=  47  P(correct after): I0 0.936  I1 0.968  I2 1.000  I3 1.000  I4 0.787 | I1−I0 +3.2 pp [-4.3, +11.9]; I2−I1 +3.2 pp [+0.0, +7.1]; I3−I2 +0.0 pp [+0.0, +0.0]; I4−I2 -21.3 pp [-34.0, -10.0]
+own_gold=3|init=wrong          n= 105  P(correct after): I0 0.019  I1 0.067  I2 0.124  I3 0.086  I4 0.171 | I1−I0 +4.8 pp [+1.7, +8.0]; I2−I1 +5.7 pp [+1.0, +10.8]; I3−I2 -3.8 pp [-7.8, -0.9]; I4−I2 +4.8 pp [+0.0, +10.0]
+own_gold=3|init=right          n=  46  P(correct after): I0 0.935  I1 0.978  I2 0.978  I3 1.000  I4 0.935 | I1−I0 +4.3 pp [-2.9, +13.2]; I2−I1 +0.0 pp [-3.1, +3.2]; I3−I2 +2.2 pp [+0.0, +7.3]; I4−I2 -4.3 pp [-11.1, +0.0]
+own_gold=4|init=wrong          n= 108  P(correct after): I0 0.000  I1 0.065  I2 0.093  I3 0.074  I4 0.157 | I1−I0 +6.5 pp [+3.2, +10.3]; I2−I1 +2.8 pp [-1.0, +7.1]; I3−I2 -1.9 pp [-5.7, +1.7]; I4−I2 +6.5 pp [+0.9, +12.6]
+own_gold=4|init=right          n=  41  P(correct after): I0 0.951  I1 0.976  I2 1.000  I3 0.976  I4 0.829 | I1−I0 +2.4 pp [+0.0, +8.3]; I2−I1 +2.4 pp [+0.0, +8.3]; I3−I2 -2.4 pp [-8.3, +0.0]; I4−I2 -17.1 pp [-29.5, -6.1]
+own_gold=5|init=wrong          n= 152  P(correct after): I0 0.000  I1 0.056  I2 0.105  I3 0.099  I4 0.145 | I1−I0 +5.6 pp [+3.1, +8.4]; I2−I1 +4.9 pp [+1.3, +8.8]; I3−I2 -0.7 pp [-4.6, +3.2]; I4−I2 +3.9 pp [-1.2, +9.2]
+own_gold=5|init=right          n=  85  P(correct after): I0 0.965  I1 0.976  I2 1.000  I3 0.988  I4 0.871 | I1−I0 +1.2 pp [-3.0, +6.2]; I2−I1 +2.4 pp [+0.5, +4.8]; I3−I2 -1.2 pp [-3.9, +0.0]; I4−I2 -12.9 pp [-20.5, -6.2]
+own_gold=all|init=wrong        n= 851  P(correct after): I0 0.005  I1 0.073  I2 0.145  I3 0.115  I4 0.173 | I1−I0 +6.8 pp [+5.5, +8.3]; I2−I1 +7.2 pp [+5.4, +9.0]; I3−I2 -2.9 pp [-4.7, -1.3]; I4−I2 +2.8 pp [+0.7, +5.0]
+own_gold=all|init=right        n= 315  P(correct after): I0 0.937  I1 0.971  I2 0.987  I3 0.984  I4 0.860 | I1−I0 +3.5 pp [+0.9, +6.3]; I2−I1 +1.6 pp [+0.0, +3.3]; I3−I2 -0.3 pp [-2.0, +1.3]; I4−I2 -12.7 pp [-16.8, -8.9]
+integration failure: P(still wrong | initially wrong, full gold set injected) = 0.855 [0.829, 0.880]

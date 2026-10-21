@@ -1,0 +1,7 @@
+=== backbone qwen2.5-7b: FRAMES final n=624 (judge-based) -> replicates ===
+PRIMARY  P-int MAS − No-comm = +4.8 pp [+2.4, +7.2]
+PRIMARY  DiD(S_UNION)        = +5.0 pp [+2.2, +7.9]   (S_UNION P-int -0.2 pp [-1.8, +1.4])
+P-util MAS − Pooled +0.0 pp [-3.2, +3.2]; MAS − SC-4 -3.2 pp [-6.2, -0.2] (token ratio 0.90)
+accuracy: A0 0.170, B0 0.151, POOL 0.260, A1m 0.240, B1m 0.245, A1n 0.168, B1n 0.157, MAS 0.260, NOCOMM 0.212, SC 0.292, PLACEBO_A 0.171, S_UNION_MAS 0.274, S_UNION_NOCOMM 0.276
+tokens/q: MAS 7833, SC 8734, POOL 2180
+execution: parse min 0.997, truncated 0.0014

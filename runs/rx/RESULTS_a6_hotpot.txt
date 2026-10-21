@@ -1,0 +1,23 @@
+=== A6 accuracy-cost Pareto, hotpot final (POST-HOC; descriptive; * = on the frontier) ===
+system                                acc  calls  tokens  tok  calls
+R6:POOL                             0.580   1.00    1735    *     *
+R6:UNI_ONE                          0.580   1.00    1735    *     *
+R6:UNI_REV                          0.556   2.00    3617           
+R6:NOCOMM                           0.354   4.82    4797           
+X7:Disagreement                     0.530   4.21    6060           
+X7:Disagree_or_ScoreGap             0.537   4.20    6272           
+R6:MAS                              0.540   4.18    6429           
+X7:LowConfidence                    0.540   4.18    6429           
+X7:ScoreGap                         0.540   4.18    6429           
+X7:ContentNovelty_or_Disagree       0.539   4.19    6431           
+X7:ContentNovelty                   0.540   4.19    6432           
+R6:SC                               0.591   4.00    6976    *     *
+R6:UNI_SC                           0.591   4.00    6976    *     *
+X8 message rules on the revision-stage token axis (round 0 and synthesis excluded):
+  Always-ANS                        0.413    2710  *
+  No-comm                           0.354    2750  
+  Adaptive-ANS/EV                   0.556    3699  *
+  Adaptive-NC/EV                    0.549    3705  
+  Always-EV                         0.559    3991  *
+  Adaptive-NC/FULL                  0.530    4013  
+  Always-FULL                       0.540    4382  

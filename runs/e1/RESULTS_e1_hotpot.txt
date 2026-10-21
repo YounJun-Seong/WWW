@@ -1,0 +1,21 @@
+=== E1 evidence-transfer intervention, hotpot final n=1000 (EM) ===
+PRIMARY  C−B (answer+evidence − answer only)       = +14.1 pp [+11.7, +16.5] -> genuine evidence adds beyond the partner's answer
+PRIMARY  C−D (answer+evidence − answer+irrelevant) = +13.9 pp [+11.5, +16.3] -> the gain is sensitive to evidence relevance
+final accuracy: NC 0.354, FULL 0.540, ANS 0.413, ANS_RSN 0.453, ANS_EV 0.554, ANS_IRR 0.415, EV 0.559
+  ANS_minus_NC: +5.9 pp [+3.8, +8.1]
+  ANS_RSN_minus_NC: +9.9 pp [+7.6, +12.2]
+  ANS_EV_minus_NC: +20.0 pp [+17.4, +22.7]
+  ANS_IRR_minus_NC: +6.1 pp [+3.9, +8.3]
+  EV_minus_NC: +20.5 pp [+17.8, +23.4]
+  FULL_minus_NC: +18.6 pp [+16.0, +21.2]
+  ANS_RSN_minus_ANS: +4.0 pp [+2.0, +6.1]
+  FULL_minus_ANS_EV: -1.4 pp [-2.8, +0.0]
+  EV_minus_ANS_EV: +0.5 pp [-1.2, +2.2]
+round-0 discordant pairs n=393:
+  NC       BRR 0.010 HRR 0.094 adopt-partner 0.010
+  FULL     BRR 0.949 HRR 0.153 adopt-partner 0.949
+  ANS      BRR 0.359 HRR 0.148 adopt-partner 0.359
+  ANS_RSN  BRR 0.611 HRR 0.145 adopt-partner 0.611
+  ANS_EV   BRR 0.929 HRR 0.145 adopt-partner 0.929
+  ANS_IRR  BRR 0.252 HRR 0.112 adopt-partner 0.252
+  EV       BRR 0.768 HRR 0.033 adopt-partner 0.768

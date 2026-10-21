@@ -1,0 +1,7 @@
+=== A3 agent-level correctness transitions (round 0 -> revision), frames final n=624 (POST-HOC) ===
+  FULL(MAS)        W->C  169 (0.135)  C->W   57 (0.046)  W->W  754 (0.604)  C->C  268 (0.215)   net +9.0 pp
+  No-comm          W->C    4 (0.003)  C->W   21 (0.017)  W->W  919 (0.736)  C->C  304 (0.244)   net -1.4 pp
+  ANS              W->C   60 (0.048)  C->W   55 (0.044)  W->W  863 (0.692)  C->C  270 (0.216)   net +0.4 pp
+  EV               W->C  131 (0.105)  C->W    8 (0.006)  W->W  792 (0.635)  C->C  317 (0.254)   net +9.9 pp
+  S_UNION MAS      W->C   37 (0.030)  C->W   34 (0.027)  W->W  780 (0.625)  C->C  397 (0.318)   net +0.2 pp
+  S_UNION No-comm  W->C   17 (0.014)  C->W    9 (0.007)  W->W  800 (0.641)  C->C  422 (0.338)   net +0.6 pp

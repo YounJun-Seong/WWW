@@ -1,0 +1,5 @@
+=== FRAMES final judge audit (blind, 80 responses) ===
+overall agreement 0.950, kappa 0.900
+MAS_vs_NOCOMM: audited 20 of 91 discordant; agreement 0.950; sample gap judge +0.900 vs human +0.800; full-cohort diff judge +10.4 pp -> human-adjusted +9.0 pp [+6.8, +10.4]
+MAS_vs_POOL: audited 10 of 98 discordant; agreement 0.950; sample gap judge -0.200 vs human -0.300; full-cohort diff judge +1.0 pp -> human-adjusted -0.6 pp [-3.8, +1.0]
+MAS_vs_SC: audited 10 of 103 discordant; agreement 0.950; sample gap judge -0.400 vs human -0.300; full-cohort diff judge -1.4 pp -> human-adjusted +0.2 pp [-1.4, +3.5]

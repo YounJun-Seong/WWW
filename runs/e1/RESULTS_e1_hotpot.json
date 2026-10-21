@@ -1,0 +1,121 @@
+{
+ "dataset": "hotpot",
+ "n": 1000,
+ "accuracy": {
+  "NC": 0.354,
+  "FULL": 0.54,
+  "ANS": 0.413,
+  "ANS_RSN": 0.453,
+  "ANS_EV": 0.554,
+  "ANS_IRR": 0.415,
+  "EV": 0.559
+ },
+ "primary": {
+  "C_minus_B": [
+   0.141,
+   0.117,
+   0.165
+  ],
+  "C_minus_D": [
+   0.139,
+   0.115,
+   0.163
+  ]
+ },
+ "secondary": {
+  "ANS_minus_NC": [
+   0.059,
+   0.038,
+   0.081
+  ],
+  "ANS_RSN_minus_NC": [
+   0.099,
+   0.076,
+   0.122
+  ],
+  "ANS_EV_minus_NC": [
+   0.2,
+   0.174,
+   0.227
+  ],
+  "ANS_IRR_minus_NC": [
+   0.061,
+   0.039,
+   0.083
+  ],
+  "EV_minus_NC": [
+   0.205,
+   0.178,
+   0.234
+  ],
+  "FULL_minus_NC": [
+   0.186,
+   0.16,
+   0.212
+  ],
+  "ANS_RSN_minus_ANS": [
+   0.04,
+   0.02,
+   0.061
+  ],
+  "FULL_minus_ANS_EV": [
+   -0.014,
+   -0.028,
+   0.0
+  ],
+  "EV_minus_ANS_EV": [
+   0.005,
+   -0.012,
+   0.022
+  ]
+ },
+ "revision": {
+  "NC": {
+   "n": 393,
+   "BRR": 0.010178117048346057,
+   "HRR": 0.09414758269720101,
+   "adopt_partner": 0.010178117048346057
+  },
+  "FULL": {
+   "n": 393,
+   "BRR": 0.9491094147582697,
+   "HRR": 0.15267175572519084,
+   "adopt_partner": 0.9491094147582697
+  },
+  "ANS": {
+   "n": 393,
+   "BRR": 0.35877862595419846,
+   "HRR": 0.1475826972010178,
+   "adopt_partner": 0.35877862595419846
+  },
+  "ANS_RSN": {
+   "n": 393,
+   "BRR": 0.6106870229007634,
+   "HRR": 0.1450381679389313,
+   "adopt_partner": 0.6106870229007634
+  },
+  "ANS_EV": {
+   "n": 393,
+   "BRR": 0.9287531806615776,
+   "HRR": 0.1450381679389313,
+   "adopt_partner": 0.9287531806615776
+  },
+  "ANS_IRR": {
+   "n": 393,
+   "BRR": 0.25190839694656486,
+   "HRR": 0.11195928753180662,
+   "adopt_partner": 0.25190839694656486
+  },
+  "EV": {
+   "n": 393,
+   "BRR": 0.7684478371501272,
+   "HRR": 0.03307888040712468,
+   "adopt_partner": 0.7684478371501272
+  }
+ },
+ "reading": {
+  "C_minus_B": "genuine evidence adds beyond the partner's answer",
+  "C_minus_D": "the gain is sensitive to evidence relevance",
+  "overall": "evidence-transfer sensitive"
+ }
+}

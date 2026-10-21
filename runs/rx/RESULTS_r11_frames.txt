@@ -1,0 +1,11 @@
+=== R11 aggregation intervention on frozen revisions, frames final n=624 (POST-HOC) ===
+  synthesizer invocation under the existing rule: MAS 0.409, NOCOMM 0.851, EV 0.662
+  existing  acc MAS 0.362, NOCOMM 0.258, EV 0.362;  P-int (MAS−NoComm) +10.4 pp [+7.5, +13.3]
+  ALWAYS    acc MAS 0.357, NOCOMM 0.255, EV 0.356;  P-int (MAS−NoComm) +10.3 pp [+7.4, +13.1]
+  EVSYN     acc MAS 0.340, NOCOMM 0.276, EV 0.345;  P-int (MAS−NoComm) +6.4 pp [+3.7, +9.1]
+  NOSYN_A   acc MAS 0.349, NOCOMM 0.252, EV 0.365;  P-int (MAS−NoComm) +9.8 pp [+6.4, +13.1]
+  NOSYN_B   acc MAS 0.351, NOCOMM 0.242, EV 0.353;  P-int (MAS−NoComm) +10.9 pp [+7.7, +14.3]
+  NOSYN (mean of the two fixed-agent picks) P-int +10.3 pp [+8.3, +12.4]
+  EV − FULL under existing: +0.0 pp [-2.2, +2.2]
+  EV − FULL under ALWAYS: -0.2 pp [-2.6, +2.2]
+  EV − FULL under EVSYN: +0.5 pp [-1.9, +2.9]

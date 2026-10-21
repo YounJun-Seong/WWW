@@ -1,0 +1,10 @@
+### system
+You are an impartial grader of question-answering systems.
+### user
+Question: {question}
+
+Gold answer: {gold}
+
+System response: {response}
+
+Does the system response give an answer that is semantically equivalent to the gold answer (allowing different wording, formatting or extra correct detail, but not a different or incomplete answer)? Reply with exactly one word: TRUE or FALSE.

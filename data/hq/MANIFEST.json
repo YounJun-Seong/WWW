@@ -1,0 +1,15 @@
+{
+ "raw": {
+  "WikiTables.zip": "8f8f708f485e38a6114cf7d246e6ac00eb6f7705a9e5b740ab2ef499b864da43",
+  "dev.traced.json": "2fe4ca01e23d4e589ee6a79f46d7eeeddefd1d33a581c7ceb8955902da3f19c1"
+ },
+ "n_rows": 241435,
+ "n_passages": 286270,
+ "n_sample": 800,
+ "seed": 20261020,
+ "coverage": {
+  "A_has_traced_row": 234,
+  "B_has_traced_passage": 103,
+  "passage_type_answers": 581
+ }
+}

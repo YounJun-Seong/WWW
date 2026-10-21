@@ -1,0 +1,16 @@
+=== HQ source-constrained allocation, HybridQA dev sample n=800 (A = table rows, B = linked passages; EM; POST-HOC, pre-specified) ===
+round-0 EM: table agent 0.056, passage agent 0.104
+condition                   EM [95% CI]     F1  tokens
+LOCAL_NOCOMM   0.071 [0.054, 0.090]  0.104    4830
+PEER_EV        0.129 [0.106, 0.152]  0.186    6281
+PEER_FULL      0.126 [0.104, 0.150]  0.182    6608
+REMOTE_Q       0.129 [0.106, 0.152]  0.189    6248
+REMOTE_GEN     0.191 [0.164, 0.219]  0.260    8272
+UNI            0.136 [0.114, 0.160]  0.195    1777
+HQ-P1 communication gain PEER_EV − LOCAL_NOCOMM = +5.8 pp [+3.9, +7.6]
+HQ-P2 feasible-policy PEER_EV − REMOTE_GEN = -6.2 pp [-8.6, -4.0]  (not a causal effect of communication)
+HQ-P3 matched REMOTE_Q − PEER_EV (agent) = -0.2 pp [-0.9, +0.4]; TOST90 [-0.8, +0.3]; equivalent ±2pp: 95% True, TOST True
+references: PEER_FULL_minus_LOCAL +5.5 pp [+3.9, +7.2]; UNI_minus_PEER_EV +0.8 pp [-0.6, +2.1]; REMOTE_GEN_minus_LOCAL +12.0 pp [+9.6, +14.5]
+coverage (traced answer nodes, distant supervision): table agent own top-5 0.292; passage agent own top-5 0.129; team any 0.361; REMOTE_GEN retrieves traced 0.463
+comm gain by team coverage: covered=True +13.1 pp [+8.7, +17.6]; covered=False +1.6 pp [+0.4, +2.7]
+candidate stages (preserved / lost in synthesis / created / none): PEER_EV 103/28/0/669; PEER_FULL 101/14/0/685; REMOTE_Q 103/24/0/673; REMOTE_GEN 152/96/1/551; LOCAL_NOCOMM 57/47/0/696

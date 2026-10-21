@@ -1,0 +1,40 @@
+{
+ "n": 50,
+ "agreement": 0.98,
+ "cohen_kappa": 0.9586776859504131,
+ "human_true": 29,
+ "judge_true": 30,
+ "judge_lenient": 1,
+ "judge_strict": 0,
+ "strata": {
+  "judge_true": {
+   "n": 20,
+   "agreement": 1.0,
+   "human_true": 20
+  },
+  "judge_false": {
+   "n": 20,
+   "agreement": 1.0,
+   "human_true": 0
+  },
+  "ambiguous": {
+   "n": 10,
+   "agreement": 0.9,
+   "human_true": 9
+  }
+ },
+ "disagreements": [
+  {
+   "item": 46,
+   "idx": 543,
+   "role": "A1m",
+   "stratum": "ambiguous",
+   "judge": true,
+   "human": false,
+   "note": "Komodo National Park islands는 gold의 Lesser Sunda Islands라는 군도명을 답하지 않음",
+   "question": "As of 2024, which islands in the Indonesian archipelago are home to the UNESCO World Heritage Site for the largest species of extant lizard?",
+   "gold": "The Lesser Sundra Islands",
+   "response": "Komodo National Park islands"
+  }
+ ]
+}

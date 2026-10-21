@@ -1,0 +1,46 @@
+{
+ "dataset": "hotpot",
+ "n": 1000,
+ "DiD": [
+  0.168,
+  0.14,
+  0.197
+ ],
+ "delta_shared_minus_dist": {
+  "MAS": [
+   0.042,
+   0.02,
+   0.064
+  ],
+  "NOCOMM": [
+   0.21,
+   0.181,
+   0.24
+  ],
+  "round0": [
+   0.237,
+   0.2145,
+   0.2605
+  ]
+ },
+ "complementarity": {
+  "D": 0.393,
+  "S_UNION": 0.025
+ },
+ "round0_answer_agreement": {
+  "D": 0.208,
+  "S_UNION": 0.916
+ },
+ "revised_agreement_MAS": {
+  "D": 0.816,
+  "S_UNION": 0.951
+ },
+ "per_agent_gold_coverage": {
+  "D": 0.7755,
+  "S_UNION": 1.0
+ },
+ "round0_prompt_tokens": {
+  "D": 841.792,
+  "S_UNION": 1568.804
+ }
+}

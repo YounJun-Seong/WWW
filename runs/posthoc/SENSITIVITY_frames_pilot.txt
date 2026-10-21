@@ -1,0 +1,5 @@
+=== FRAMES pilot sensitivity (judge-based): excluded 28 of 200 questions with a render-time '(age N)' string in any retrieved passage; n = 172 ===
+P-int  MAS − No-comm +5.8 pp [+1.7, +10.5]
+P-util MAS − Pooled  -1.2 pp [-7.0, +4.7]
+MAS − SC-k           -5.8 pp [-12.2, +0.6]
+excluded idx: [25, 28, 36, 41, 63, 110, 187, 196, 219, 247, 257, 322, 393, 415, 421, 438, 475, 479, 488, 492, 571, 643, 680, 694, 743, 780, 805, 822]

@@ -1,0 +1,105 @@
+{
+ "dataset": "hotpot",
+ "n": 1000,
+ "agree_rate": 0.208,
+ "rules": {
+  "Always-ANS": {
+   "accuracy": 0.413,
+   "revision_tokens": 2710.382,
+   "minus_AlwaysEV": [
+    -0.146,
+    -0.172,
+    -0.12
+   ],
+   "minus_AlwaysFULL": [
+    -0.127,
+    -0.151,
+    -0.103
+   ]
+  },
+  "Always-EV": {
+   "accuracy": 0.559,
+   "revision_tokens": 3991.289,
+   "minus_AlwaysEV": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "minus_AlwaysFULL": [
+    0.019,
+    0.001,
+    0.037
+   ]
+  },
+  "Always-FULL": {
+   "accuracy": 0.54,
+   "revision_tokens": 4381.98,
+   "minus_AlwaysEV": [
+    -0.019,
+    -0.037,
+    -0.001
+   ],
+   "minus_AlwaysFULL": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "No-comm": {
+   "accuracy": 0.354,
+   "revision_tokens": 2750.472,
+   "minus_AlwaysEV": [
+    -0.205,
+    -0.234,
+    -0.178
+   ],
+   "minus_AlwaysFULL": [
+    -0.186,
+    -0.212,
+    -0.16
+   ]
+  },
+  "Adaptive-ANS/EV": {
+   "accuracy": 0.556,
+   "revision_tokens": 3699.443,
+   "minus_AlwaysEV": [
+    -0.003,
+    -0.007,
+    0.0
+   ],
+   "minus_AlwaysFULL": [
+    0.016,
+    -0.002,
+    0.034
+   ]
+  },
+  "Adaptive-NC/EV": {
+   "accuracy": 0.549,
+   "revision_tokens": 3704.698,
+   "minus_AlwaysEV": [
+    -0.01,
+    -0.017,
+    -0.004
+   ],
+   "minus_AlwaysFULL": [
+    0.009,
+    -0.01,
+    0.028
+   ]
+  },
+  "Adaptive-NC/FULL": {
+   "accuracy": 0.53,
+   "revision_tokens": 4012.79,
+   "minus_AlwaysEV": [
+    -0.029,
+    -0.048,
+    -0.01
+   ],
+   "minus_AlwaysFULL": [
+    -0.01,
+    -0.017,
+    -0.004
+   ]
+  }
+ }
+}

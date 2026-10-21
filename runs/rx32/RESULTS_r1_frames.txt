@@ -1,0 +1,25 @@
+=== R1 counterfactual gold removal / replacement, frames final n=613 (judge; POST-HOC) ===
+gold = passage from a gold page (page-level, not fact-level)
+final accuracy: R1_FULL 0.308, R1_GOLDRM 0.165, R1_GOLDREP 0.165, R1_NONGOLDRM 0.308, NC 0.220
+  final FULL_minus_GOLDREP: +14.4 pp [+11.3, +17.6]
+  final FULL_minus_GOLDRM: +14.4 pp [+11.3, +17.5]
+  final FULL_minus_NONGOLDRM: +0.0 pp [-1.8, +1.8]
+  final GOLDREP_minus_NC: -5.5 pp [-8.2, -3.1]
+  final NONGOLDRM_minus_NC: +8.8 pp [+6.0, +11.7]
+  final FULL_minus_NC: +8.8 pp [+5.7, +11.9]
+agent level, partner_holds_gold:
+  R1_FULL       correction 0.234 [0.200, 0.269] (n wrong 714); harm 0.038 [0.008, 0.076] (n right 130)
+  R1_GOLDRM     correction 0.008 [0.003, 0.016] (n wrong 714); harm 0.038 [0.008, 0.076] (n right 130)
+  R1_GOLDREP    correction 0.004 [0.000, 0.010] (n wrong 714); harm 0.031 [0.007, 0.065] (n right 130)
+  R1_NONGOLDRM  correction 0.230 [0.196, 0.265] (n wrong 714); harm 0.038 [0.008, 0.075] (n right 130)
+  correction FULL_minus_GOLDREP: +23.0 pp [+19.6, +26.5]
+  correction FULL_minus_GOLDRM: +22.5 pp [+19.2, +26.1]
+  correction FULL_minus_NONGOLDRM: +0.4 pp [-1.0, +1.9]
+agent level, all:
+  R1_FULL       correction 0.166 [0.141, 0.192] (n wrong 1028); harm 0.035 [0.011, 0.063] (n right 198)
+  R1_GOLDRM     correction 0.010 [0.004, 0.016] (n wrong 1028); harm 0.035 [0.011, 0.063] (n right 198)
+  R1_GOLDREP    correction 0.007 [0.002, 0.012] (n wrong 1028); harm 0.030 [0.010, 0.057] (n right 198)
+  R1_NONGOLDRM  correction 0.162 [0.137, 0.188] (n wrong 1028); harm 0.025 [0.005, 0.049] (n right 198)
+  correction FULL_minus_GOLDREP: +16.0 pp [+13.5, +18.6]
+  correction FULL_minus_GOLDRM: +15.7 pp [+13.2, +18.3]
+  correction FULL_minus_NONGOLDRM: +0.4 pp [-0.7, +1.5]

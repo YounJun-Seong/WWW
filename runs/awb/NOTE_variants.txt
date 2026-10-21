@@ -1,0 +1,12 @@
+AgentWebBench message-content variants (POST-HOC, n = 53, Qwen2.5-14B-Instruct, AWB judge prompt with our frozen judge aa55da1)
+  full (unchanged)   acc 0.132 (7/53)   "did not find answer" 25/53
+  summary-only       acc 0.132 (7/53)   "did not find answer" 22/53   summary − full +0.0 pp [-9.4, +9.4]
+  docs-only          acc 0.019 (1/53)   "did not find answer" 40/53   docs − full   -11.3 pp [-20.8, -3.8]  (6 discordant)
+CAVEAT — docs-only is NOT an evidence-only analogue of our EV message: AWB content agents attach validated documents to
+only ~9% of their replies (full run: 9 of 98 finished content-agent sessions; docs run: 10 of 119); the rest carry only a
+summary. Stripping the summary therefore removes nearly all transmitted information, so docs-only measures information
+deprivation. What the variants do show: in AWB the transmitted content is overwhelmingly the content agent's claim
+(summary); documents rarely reach the user agent (seen documents returned in 2/53 questions in `full`), and removing
+documents changes nothing (summary-only = full). n = 53 and 6 discordant questions: diagnostic only.
+Deviations: centralized `classical` method unavailable (API now requires a website); judge = AWB prompt + our local judge;
+CONCURRENT_NUM 8; max_tokens capped to context (17:46) and search 404 -> empty result (19:16), see FIX_TIMES.

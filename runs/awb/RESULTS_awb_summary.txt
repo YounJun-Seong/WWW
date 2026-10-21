@@ -1,0 +1,9 @@
+=== RX Exp 9 AgentWebBench QA external diagnostic, method multi_agent_summary, Qwen2.5-14B-Instruct (POST-HOC; n=53) ===
+results 53/53; judged 53; accuracy (judge) 0.132 on answered, 0.132 on all 53 (missing = wrong); token F1 0.068
+seen documents reached a content agent's search results: 22/53; returned to the user agent: 0/53
+P(correct | seen doc transmitted) 0.000; P(correct | not transmitted) 0.132
+by source: browsecompplus 1/5, gaia 1/13, hle 4/31, webwalkerqa 1/4
+deviation: questions without a result (AgentWebBench's own prompt truncation raises on malformed document JSON, or search-API errors, on every retry) are reported as missing and counted wrong in accuracy_all53
+deviation: centralized `classical` method unavailable: public search API requires a website parameter
+deviation: judge = AgentWebBench judge prompt with our local Qwen3-32B-FP8, not their OpenAI judge
+deviation: AgentWebBench CONCURRENT_NUM 32 -> 8; Qwen2.5-14B-Instruct max input 28000 tokens

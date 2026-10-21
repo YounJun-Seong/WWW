@@ -1,0 +1,8 @@
+=== BX4-C evidence-aware aggregation on the SAME revised candidates, HotpotQA B3, n=1000 (POST-HOC) ===
+cell      existing  evidence-aware  oracle (bound)   lost in synthesis (existing / evidence-aware)
+F_SPLIT      0.496           0.512           0.553   57 / 41
+F_CONC       0.589           0.588           0.612   24 / 24
+F_SHAR       0.605           0.608           0.629   24 / 21
+F_SPLIT − F_CONC gap: EXISTING -9.3 pp [-11.7, -6.8]; EVIDENCE_AWARE -7.6 pp [-10.0, -5.1]; ORACLE -5.9 pp [-8.2, -3.7]
+evidence-aware − existing: F_SPLIT +1.6 pp [+0.5, +2.7]; F_CONC -0.1 pp [-0.8, +0.6]; F_SHAR +0.3 pp [-0.1, +0.8]
+ORACLE = correct iff any revised answer is correct: a diagnostic upper bound for aggregation, not a system.

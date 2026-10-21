@@ -1,0 +1,12 @@
+=== frames final: n=624 ===
+accuracy: A0 0.229, B0 0.247, POOL 0.277, A1m 0.317, B1m 0.314, A1n 0.212, B1n 0.205, MAS 0.354, NOCOMM 0.290, SC 0.340, PLACEBO_A 0.253
+tokens/q: A0 1547, B0 1536, POOL 2440, MAS 11428, NOCOMM 9249, SC 11739
+PRIMARY  P-int  MAS − No-comm  = +6.4 pp [+3.7, +9.1]
+PRIMARY  P-util MAS − Pooled   = +7.7 pp [+4.2, +11.2]
+G1  MAS − SC-k +1.4 pp [-1.9, +5.0] (token ratio MAS/SC 0.97); MAS − A +12.5 pp [+9.3, +15.7]; MAS − B +10.7 pp [+7.5, +14.1]; MAS/No-comm tokens 1.24
+G2  complementarity +13.3 pp [+10.7, +15.4]; placebo +9.0 pp [+6.9, +11.2]; corrected +4.3 pp [+0.8, +7.4]
+G4  κ0 0.380 → MAS 0.370 (gain 0.046, loss 0.056) | No-comm 0.346; MAS − No-comm +2.4 pp [-0.2, +5.0]
+G5  discordant n=177: MAS BRR 0.7401129943502824 HRR 0.3728813559322034 DI +36.7 pp [+24.9, +48.0]; No-comm BRR 0.03954802259887006 HRR 0.192090395480226 DI -15.3 pp [-22.0, -9.0]
+evidence transfer: {"availability_held": 0.9548022598870056, "availability_retrieved": 0.8813559322033898, "utilization_MAS": 0.7884615384615384, "utilization_NOCOMM": 0.038461538461538464, "n_available": 156, "utilization_MAS_partner_only": 0.8260869565217391, "utilization_NOCOMM_partner_only": 0.028985507246376812, "n_partner_only": 69, "transfer_success_MAS": 0.6949152542372881}
+failure taxonomy (MAS-wrong): {"retrieval_miss": 29, "insufficient_evidence": 278, "integration_failure": 96}
+synthesizer used: {'MAS': 0.5913461538461539, 'NOCOMM': 0.9503205128205128}

@@ -1,0 +1,6 @@
+=== BX2-B ownership-framing control, HotpotQA B3_F_SPLIT, n=1000 (POST-HOC; pre-specified) ===
+only prompt difference: 'Their evidence passages:' -> 'More of your own evidence passages:'
+PRIMARY agent revised acc: control 0.497, treatment 0.512; treatment − control +1.5 pp [+0.8, +2.2]
+SECONDARY team final: control 0.496, treatment 0.517; diff +2.1 pp [+0.9, +3.4]
+SECONDARY preservation (final | revision candidate): treatment − control +1.7 pp [-0.5, +3.7] (n 566 / 553)
+identical revised answers between conditions: 0.918

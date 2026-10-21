@@ -1,0 +1,145 @@
+{
+ "dataset": "hotpot",
+ "points": {
+  "R6:MAS": {
+   "accuracy": 0.54,
+   "calls": 4.184,
+   "input": 5723.754,
+   "output": 704.944,
+   "tokens": 6428.698
+  },
+  "R6:NOCOMM": {
+   "accuracy": 0.354,
+   "calls": 4.815,
+   "input": 4072.709,
+   "output": 724.481,
+   "tokens": 4797.19
+  },
+  "R6:POOL": {
+   "accuracy": 0.58,
+   "calls": 1.0,
+   "input": 1568.804,
+   "output": 166.365,
+   "tokens": 1735.169
+  },
+  "R6:SC": {
+   "accuracy": 0.591,
+   "calls": 4.0,
+   "input": 6275.216,
+   "output": 700.335,
+   "tokens": 6975.551
+  },
+  "R6:UNI_ONE": {
+   "accuracy": 0.58,
+   "calls": 1.0,
+   "input": 1568.804,
+   "output": 166.365,
+   "tokens": 1735.169
+  },
+  "R6:UNI_REV": {
+   "accuracy": 0.556,
+   "calls": 2.0,
+   "input": 3308.854,
+   "output": 308.07,
+   "tokens": 3616.924
+  },
+  "R6:UNI_SC": {
+   "accuracy": 0.591,
+   "calls": 4.0,
+   "input": 6275.216,
+   "output": 700.335,
+   "tokens": 6975.551
+  },
+  "X7:Disagreement": {
+   "accuracy": 0.53,
+   "calls": 4.214,
+   "input": 5356.947,
+   "output": 702.561,
+   "tokens": 6059.508
+  },
+  "X7:LowConfidence": {
+   "accuracy": 0.54,
+   "calls": 4.184,
+   "input": 5723.754,
+   "output": 704.944,
+   "tokens": 6428.698
+  },
+  "X7:ScoreGap": {
+   "accuracy": 0.54,
+   "calls": 4.184,
+   "input": 5723.754,
+   "output": 704.944,
+   "tokens": 6428.698
+  },
+  "X7:Disagree_or_ScoreGap": {
+   "accuracy": 0.537,
+   "calls": 4.197,
+   "input": 5567.751,
+   "output": 704.653,
+   "tokens": 6272.404
+  },
+  "X7:ContentNovelty": {
+   "accuracy": 0.54,
+   "calls": 4.191,
+   "input": 5726.706,
+   "output": 704.914,
+   "tokens": 6431.62
+  },
+  "X7:ContentNovelty_or_Disagree": {
+   "accuracy": 0.539,
+   "calls": 4.191,
+   "input": 5726.945,
+   "output": 704.431,
+   "tokens": 6431.376
+  }
+ },
+ "pareto_tokens": [
+  "R6:POOL",
+  "R6:SC",
+  "R6:UNI_ONE",
+  "R6:UNI_SC"
+ ],
+ "pareto_calls": [
+  "R6:POOL",
+  "R6:SC",
+  "R6:UNI_ONE",
+  "R6:UNI_SC"
+ ],
+ "x8_revision_stage": {
+  "points": {
+   "Always-ANS": {
+    "accuracy": 0.413,
+    "tokens": 2710.382
+   },
+   "Always-EV": {
+    "accuracy": 0.559,
+    "tokens": 3991.289
+   },
+   "Always-FULL": {
+    "accuracy": 0.54,
+    "tokens": 4381.98
+   },
+   "No-comm": {
+    "accuracy": 0.354,
+    "tokens": 2750.472
+   },
+   "Adaptive-ANS/EV": {
+    "accuracy": 0.556,
+    "tokens": 3699.443
+   },
+   "Adaptive-NC/EV": {
+    "accuracy": 0.549,
+    "tokens": 3704.698
+   },
+   "Adaptive-NC/FULL": {
+    "accuracy": 0.53,
+    "tokens": 4012.79
+   }
+  },
+  "pareto": [
+   "Adaptive-ANS/EV",
+   "Always-ANS",
+   "Always-EV"
+  ]
+ }
+}

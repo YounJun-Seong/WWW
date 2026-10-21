@@ -1,0 +1,23 @@
+=== BX3 post-hoc execution robustness audit: original (primary, unchanged) vs one regeneration (fresh caches) ===
+contrast                               ds                 original 95% CI         regenerated 95% CI  direction  significance
+R1 FULL − GOLDREP (team final)         frames         +7.2 [ +4.6,  +9.8]        +7.2 [ +4.6,  +9.8]  same       + -> +
+R1 FULL − GOLDREP (team final)         hotpot        +16.7 [+14.2, +19.3]       +16.7 [+14.2, +19.3]  same       + -> +
+B3 P-int(F_SPLIT) − P-int(F_SHAR)      hotpot        +13.9 [+11.0, +16.9]       +15.0 [+12.0, +18.0]  same       + -> +
+B4-P1 CQ_Q_5 − PEER_EV_5 (agent)       frames         +0.3 [ -0.7,  +1.4]        +0.3 [ -0.7,  +1.4]  same       0 -> 0  | regen equivalence ±2pp: 95% True, TOST90 True
+B4-P1 CQ_Q_5 − PEER_EV_5 (agent)       hotpot         -0.5 [ -1.6,  +0.4]        -0.5 [ -1.5,  +0.4]  same       0 -> 0  | regen equivalence ±2pp: 95% True, TOST90 True
+B4-P2 CQ_GEN_5 − PEER_EV_5 (agent)     frames         +3.0 [ +1.2,  +4.7]        +2.9 [ +1.1,  +4.6]  same       + -> +
+B4-P2 CQ_GEN_5 − PEER_EV_5 (agent)     hotpot         -0.5 [ -1.6,  +0.4]        -0.6 [ -1.6,  +0.4]  same       0 -> 0
+answer agreement, original vs regenerated (normalised answer equal):
+  frames  R1_FULL     A0 1.000, B0 1.000, A1m 1.000, B1m 0.997, MAS 0.998
+  frames  R1_GOLDREP  A0 1.000, B0 1.000, A1m 1.000, B1m 0.995, MAS 0.998
+  frames  PEER_EV_5   A0 1.000, B0 1.000, A1m 1.000, B1m 0.997, MAS 0.998
+  frames  CQ_Q_5      A0 1.000, B0 1.000, A1m 0.998, B1m 0.998, MAS 0.994
+  frames  CQ_GEN_5    A0 1.000, B0 1.000, A1m 0.997, B1m 0.994, MAS 0.992
+  hotpot  R1_FULL     A0 1.000, B0 1.000, A1m 0.998, B1m 0.998, MAS 0.997
+  hotpot  R1_GOLDREP  A0 1.000, B0 1.000, A1m 0.999, B1m 0.999, MAS 0.993
+  hotpot  PEER_EV_5   A0 1.000, B0 1.000, A1m 0.997, B1m 0.999, MAS 0.997
+  hotpot  CQ_Q_5      A0 1.000, B0 1.000, A1m 1.000, B1m 1.000, MAS 0.998
+  hotpot  CQ_GEN_5    A0 1.000, B0 1.000, A1m 0.996, B1m 0.998, MAS 0.992
+  hotpot  B3_F_SPLIT  A0 0.748, B0 0.725, A1m 0.832, B1m 0.823, A1n 0.735, B1n 0.708, MAS 0.802, NOCOMM 0.624
+  hotpot  B3_F_SHAR   A0 0.921, B0 0.919, A1m 0.921, B1m 0.931, A1n 0.897, B1n 0.899, MAS 0.913, NOCOMM 0.893
+One regeneration = one additional execution: sensitivity to execution, not invariance across conditions.

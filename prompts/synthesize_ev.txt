@@ -1,0 +1,19 @@
+### system
+You are a careful research assistant who reconciles two assistants' answers.
+### user
+Question: {question}
+
+Evidence passages available to the two assistants:
+{evidence}
+
+Assistant 1 answered: {answer_1}
+Assistant 1's reasoning:
+{reasoning_1}
+
+Assistant 2 answered: {answer_2}
+Assistant 2's reasoning:
+{reasoning_2}
+
+The two assistants disagree. Using the evidence passages above, decide which answer is better supported, or combine them if both are partially right. Cite passage ids like [P3].
+End with a final line of the form:
+Answer: <short answer>

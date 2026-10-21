@@ -1,0 +1,51 @@
+{
+ "n": 1000,
+ "prompt_diff": [
+  "-Their evidence passages:",
+  "+More of your own evidence passages:"
+ ],
+ "PRIMARY_agent_revised": {
+  "control": [
+   0.497,
+   0.4675,
+   0.527
+  ],
+  "treatment": [
+   0.512,
+   0.4825,
+   0.5415
+  ],
+  "diff": [
+   0.015,
+   0.0075,
+   0.0225
+  ]
+ },
+ "SECONDARY_team_final": {
+  "control": [
+   0.496,
+   0.465,
+   0.527
+  ],
+  "treatment": [
+   0.517,
+   0.486,
+   0.549
+  ],
+  "diff": [
+   0.021,
+   0.009,
+   0.034
+  ]
+ },
+ "SECONDARY_preservation": {
+  "treatment_minus_control": [
+   0.0165017028862805,
+   -0.004643596844992578,
+   0.037416271531467794
+  ],
+  "n_t": 566,
+  "n_c": 553
+ },
+ "identical_revised_answer_share": 0.918
+}

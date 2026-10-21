@@ -1,0 +1,148 @@
+{
+ "n": 800,
+ "accuracy": {
+  "LOCAL_NOCOMM": [
+   0.07125,
+   0.05375,
+   0.09
+  ],
+  "UNI": [
+   0.13625,
+   0.11375,
+   0.16
+  ],
+  "PEER_EV": [
+   0.12875,
+   0.10625,
+   0.1525
+  ],
+  "PEER_FULL": [
+   0.12625,
+   0.10375,
+   0.15
+  ],
+  "REMOTE_Q": [
+   0.12875,
+   0.10625,
+   0.1525
+  ],
+  "REMOTE_GEN": [
+   0.19125,
+   0.16375,
+   0.21875
+  ]
+ },
+ "f1": {
+  "LOCAL_NOCOMM": 0.10391356153331735,
+  "UNI": 0.19498940548646407,
+  "PEER_EV": 0.18564080876267625,
+  "PEER_FULL": 0.1822316938315577,
+  "REMOTE_Q": 0.18906257416003952,
+  "REMOTE_GEN": 0.2598947630352072
+ },
+ "round0": {
+  "A_tables": 0.05625,
+  "B_passages": 0.10375
+ },
+ "P1_comm_gain": [
+  0.0575,
+  0.03875,
+  0.07625
+ ],
+ "P2_policy_PEER_EV_minus_REMOTE_GEN": [
+  -0.0625,
+  -0.08625,
+  -0.04
+ ],
+ "P3_matched_REMOTE_Q_minus_PEER_EV_agent": {
+  "ci95": [
+   -0.0025,
+   -0.009375,
+   0.004375
+  ],
+  "ci90": [
+   -0.0025,
+   -0.008125,
+   0.003125
+  ],
+  "equivalent_95": true,
+  "equivalent_TOST90": true
+ },
+ "references": {
+  "PEER_FULL_minus_LOCAL": [
+   0.055,
+   0.03875,
+   0.0725
+  ],
+  "UNI_minus_PEER_EV": [
+   0.0075,
+   -0.00625,
+   0.02125
+  ],
+  "REMOTE_GEN_minus_LOCAL": [
+   0.12,
+   0.09625,
+   0.145
+  ]
+ },
+ "coverage": {
+  "A_own_traced_row": 0.2925,
+  "B_own_traced_passage": 0.12875,
+  "team_any_traced": 0.36125,
+  "peer_delivers_traced_to_A": 0.12875,
+  "peer_delivers_traced_to_B": 0.2925,
+  "remote_gen_retrieves_traced": 0.4625,
+  "comm_gain_by_team_coverage": {
+   "True": [
+    0.1314878892733564,
+    0.08650519031141868,
+    0.17647058823529413
+   ],
+   "False": [
+    0.015655577299412915,
+    0.003913894324853229,
+    0.0273972602739726
+   ]
+  }
+ },
+ "stages": {
+  "PEER_EV": {
+   "preserved": 103,
+   "lost": 28,
+   "created": 0,
+   "none": 669
+  },
+  "PEER_FULL": {
+   "preserved": 101,
+   "lost": 14,
+   "created": 0,
+   "none": 685
+  },
+  "REMOTE_Q": {
+   "preserved": 103,
+   "lost": 24,
+   "created": 0,
+   "none": 673
+  },
+  "REMOTE_GEN": {
+   "preserved": 152,
+   "lost": 96,
+   "created": 1,
+   "none": 551
+  },
+  "LOCAL_NOCOMM": {
+   "preserved": 57,
+   "lost": 47,
+   "created": 0,
+   "none": 696
+  }
+ },
+ "tokens_per_question": {
+  "LOCAL_NOCOMM": 4830.34375,
+  "UNI": 1777.31375,
+  "PEER_EV": 6280.84875,
+  "PEER_FULL": 6607.85,
+  "REMOTE_Q": 6248.32375,
+  "REMOTE_GEN": 8271.61125
+ }
+}

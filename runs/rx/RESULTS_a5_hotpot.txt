@@ -1,0 +1,10 @@
+=== A5 decomposition of the RQ1 DiD, hotpot final n=1000 (POST-HOC) ===
+DiD = +16.8 pp [+14.0, +19.7]
+  Shared-union − Distributed, MAS: +4.2 pp [+2.0, +6.4]
+  Shared-union − Distributed, NOCOMM: +21.0 pp [+18.1, +24.0]
+  Shared-union − Distributed, round0: +23.7 pp [+21.4, +26.1]
+  one-correct complementarity: D 0.393  S_UNION 0.025
+  round-0 answer agreement: D 0.208  S_UNION 0.916
+  MAS revised agreement: D 0.816  S_UNION 0.951
+  per-agent gold coverage: D 0.775  S_UNION 1.000
+  round-0 prompt tokens per agent: D 842  S_UNION 1569

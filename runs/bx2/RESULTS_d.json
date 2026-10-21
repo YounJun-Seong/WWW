@@ -1,0 +1,649 @@
+{
+ "denominators": {
+  "runs/bx/frames_CQ_GEN_1_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/frames_CQ_GEN_3_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/frames_CQ_GEN_5_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/frames_CQ_Q_1_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/frames_CQ_Q_3_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/frames_CQ_Q_5_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/frames_LOCAL_SC_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/frames_PEER_EV_1_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/frames_PEER_EV_3_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/frames_PEER_EV_5_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/hotpot_B3_F_CONC_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/hotpot_B3_F_SHAR_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/hotpot_B3_F_SPLIT_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/hotpot_B3_NONE_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/hotpot_B3_P_EXCL_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/hotpot_B3_P_SHAR_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/hotpot_CQ_GEN_1_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/hotpot_CQ_GEN_3_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/hotpot_CQ_GEN_5_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/hotpot_CQ_Q_1_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/hotpot_CQ_Q_3_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/hotpot_CQ_Q_5_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/hotpot_LOCAL_SC_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/hotpot_PEER_EV_1_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/hotpot_PEER_EV_3_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx/hotpot_PEER_EV_5_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/bx2/hotpot_F_SPLIT_LOCAL_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/frames_AGG_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/frames_DPAD_gen.jsonl": {
+   "rows": 624,
+   "skipped": 27,
+   "errors": 0
+  },
+  "runs/rx/frames_R10_HARDNEG_gen.jsonl": {
+   "rows": 624,
+   "skipped": 11,
+   "errors": 0
+  },
+  "runs/rx/frames_R10_RANDNEG_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/frames_R12_GOLDLAST_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/frames_R12_N3_gen.jsonl": {
+   "rows": 624,
+   "skipped": 37,
+   "errors": 0
+  },
+  "runs/rx/frames_R12_N6_gen.jsonl": {
+   "rows": 624,
+   "skipped": 44,
+   "errors": 0
+  },
+  "runs/rx/frames_R1_FULL_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/frames_R1_GOLDREP_gen.jsonl": {
+   "rows": 624,
+   "skipped": 11,
+   "errors": 0
+  },
+  "runs/rx/frames_R1_GOLDRM_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/frames_R1_NONGOLDRM_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/frames_R2_I1a_gen.jsonl": {
+   "rows": 624,
+   "skipped": 13,
+   "errors": 0
+  },
+  "runs/rx/frames_R2_I1b_gen.jsonl": {
+   "rows": 624,
+   "skipped": 41,
+   "errors": 0
+  },
+  "runs/rx/frames_R2_I2_gen.jsonl": {
+   "rows": 624,
+   "skipped": 13,
+   "errors": 0
+  },
+  "runs/rx/frames_R2_I3_gen.jsonl": {
+   "rows": 624,
+   "skipped": 13,
+   "errors": 0
+  },
+  "runs/rx/frames_R2_I4_gen.jsonl": {
+   "rows": 624,
+   "skipped": 13,
+   "errors": 0
+  },
+  "runs/rx/frames_SEED2028_D_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/frames_SEED2028_SU_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/frames_SEED2029_D_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/frames_SEED2029_SU_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/frames_SEED2030_D_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/frames_SEED2030_SU_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/frames_UNI_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_AGG_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_DPAD_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_E2H_EXCL_HIGH_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_E2H_EXCL_LOW_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_E2H_SHAR_HIGH_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_E2H_SHAR_LOW_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_OVL1_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_OVL2_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_OVL3_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_OVL4_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_OVL5_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_R10_HARDNEG_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_R10_RANDNEG_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_R10_SHORT_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_R12_GOLDLAST_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_R12_N3_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_R12_N6_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_R1_FULL_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_R1_GOLDREP_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_R1_GOLDRM_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_R1_NONGOLDRM_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_R2_I1a_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_R2_I1b_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_R2_I2_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_R2_I3_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_R2_I4_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_SEED2028_D_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_SEED2028_SU_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_SEED2029_D_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_SEED2029_SU_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_SEED2030_D_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_SEED2030_SU_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx/hotpot_UNI_gen.jsonl": {
+   "rows": 1000,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx32/frames_R1_FULL_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx32/frames_R1_GOLDREP_gen.jsonl": {
+   "rows": 624,
+   "skipped": 11,
+   "errors": 0
+  },
+  "runs/rx32/frames_R1_GOLDRM_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx32/frames_R1_NONGOLDRM_gen.jsonl": {
+   "rows": 624,
+   "skipped": 0,
+   "errors": 0
+  },
+  "runs/rx32/frames_R2_I1a_gen.jsonl": {
+   "rows": 624,
+   "skipped": 13,
+   "errors": 0
+  },
+  "runs/rx32/frames_R2_I1b_gen.jsonl": {
+   "rows": 624,
+   "skipped": 41,
+   "errors": 0
+  },
+  "runs/rx32/frames_R2_I2_gen.jsonl": {
+   "rows": 624,
+   "skipped": 13,
+   "errors": 0
+  },
+  "runs/rx32/frames_R2_I3_gen.jsonl": {
+   "rows": 624,
+   "skipped": 13,
+   "errors": 0
+  },
+  "runs/rx32/frames_R2_I4_gen.jsonl": {
+   "rows": 624,
+   "skipped": 13,
+   "errors": 0
+  }
+ },
+ "tost": {
+  "frames": {
+   "diff": 0.003205128205128205,
+   "ci95": [
+    -0.007211538461538462,
+    0.013621794871794872
+   ],
+   "ci90": [
+    -0.005608974358974359,
+    0.01201923076923077
+   ],
+   "margin": 0.02,
+   "margin_prespecified": "DESIGN_BX.md @ bx-freeze 97fcc5c",
+   "equivalent_95": true,
+   "equivalent_TOST90": true
+  },
+  "hotpot": {
+   "diff": -0.0055,
+   "ci95": [
+    -0.015,
+    0.0045
+   ],
+   "ci90": [
+    -0.0135,
+    0.003
+   ],
+   "margin": 0.02,
+   "margin_prespecified": "DESIGN_BX.md @ bx-freeze 97fcc5c",
+   "equivalent_95": true,
+   "equivalent_TOST90": true
+  }
+ },
+ "recompute": {
+  "frames": {
+   "P1_orig": 0.003205128205128205,
+   "P1_new": 0.003205128205128205,
+   "P2_orig": {
+    "1": 0.03365384615384615,
+    "3": 0.02564102564102564,
+    "5": 0.029647435897435896
+   },
+   "P2_new": {
+    "1": 0.03365384615384615,
+    "3": 0.02564102564102564,
+    "5": 0.029647435897435896
+   }
+  },
+  "hotpot": {
+   "P1_orig": -0.0055,
+   "P1_new": -0.0055,
+   "P2_orig": {
+    "1": 0.024,
+    "3": 0.0195,
+    "5": -0.0055
+   },
+   "P2_new": {
+    "1": 0.024,
+    "3": 0.0195,
+    "5": -0.0055
+   }
+  }
+ },
+ "altscore": {
+  "contain": {
+   "P1": [
+    0.005608974358974359,
+    -0.003205128205128205,
+    0.014423076923076924
+   ],
+   "P2": {
+    "1": [
+     0.020032051282051284,
+     0.008012820512820512,
+     0.03205128205128205
+    ],
+    "3": [
+     0.014423076923076924,
+     0.0,
+     0.029647435897435896
+    ],
+    "5": [
+     0.01842948717948718,
+     0.004006410256410256,
+     0.032852564102564104
+    ]
+   },
+   "ladder": {
+    "LOCAL_ONE": 0.17868589743589744,
+    "LOCAL_SC": 0.17708333333333334,
+    "LOCAL_REV": 0.17067307692307693,
+    "NOCOMM": 0.18108974358974358,
+    "E1_ANS": 0.16666666666666666,
+    "E1_ANS_RSN": 0.22756410256410256,
+    "E1_ANS_EV": 0.22916666666666666,
+    "E1_EV": 0.23397435897435898,
+    "FULL(MAS)": 0.23557692307692307,
+    "PEER_EV_1": 0.21314102564102563,
+    "PEER_EV_3": 0.22596153846153846,
+    "PEER_EV_5": 0.23397435897435898,
+    "CQ_Q_1": 0.20592948717948717,
+    "CQ_Q_1_team": 0.22596153846153846,
+    "CQ_Q_3": 0.22756410256410256,
+    "CQ_Q_3_team": 0.2387820512820513,
+    "CQ_Q_5": 0.2419871794871795,
+    "CQ_Q_5_team": 0.2564102564102564,
+    "CQ_GEN_1": 0.22596153846153846,
+    "CQ_GEN_1_team": 0.24358974358974358,
+    "CQ_GEN_3": 0.24599358974358973,
+    "CQ_GEN_3_team": 0.2532051282051282,
+    "CQ_GEN_5": 0.2548076923076923,
+    "CQ_GEN_5_team": 0.2644230769230769,
+    "UNI_ONE": 0.22756410256410256,
+    "UNI_REV": 0.22275641025641027,
+    "UNI_SC": 0.24358974358974358,
+    "POOL": 0.22916666666666666,
+    "SC": 0.2467948717948718
+   }
+  },
+  "f1": {
+   "P1": [
+    0.007211538461538462,
+    -0.003205128205128205,
+    0.017628205128205128
+   ],
+   "P2": {
+    "1": [
+     0.029647435897435896,
+     0.016025641025641024,
+     0.044070512820512824
+    ],
+    "3": [
+     0.02403846153846154,
+     0.008012820512820512,
+     0.04006410256410257
+    ],
+    "5": [
+     0.03365384615384615,
+     0.016025641025641024,
+     0.05128205128205128
+    ]
+   },
+   "ladder": {
+    "LOCAL_ONE": 0.22916666666666666,
+    "LOCAL_SC": 0.2419871794871795,
+    "LOCAL_REV": 0.22275641025641027,
+    "NOCOMM": 0.22275641025641027,
+    "E1_ANS": 0.22275641025641027,
+    "E1_ANS_RSN": 0.28044871794871795,
+    "E1_ANS_EV": 0.2980769230769231,
+    "E1_EV": 0.30288461538461536,
+    "FULL(MAS)": 0.30448717948717946,
+    "PEER_EV_1": 0.2708333333333333,
+    "PEER_EV_3": 0.2948717948717949,
+    "PEER_EV_5": 0.30288461538461536,
+    "CQ_Q_1": 0.27403846153846156,
+    "CQ_Q_1_team": 0.28685897435897434,
+    "CQ_Q_3": 0.2980769230769231,
+    "CQ_Q_3_team": 0.2980769230769231,
+    "CQ_Q_5": 0.3125,
+    "CQ_Q_5_team": 0.3173076923076923,
+    "CQ_GEN_1": 0.2956730769230769,
+    "CQ_GEN_1_team": 0.32211538461538464,
+    "CQ_GEN_3": 0.3229166666666667,
+    "CQ_GEN_3_team": 0.328525641025641,
+    "CQ_GEN_5": 0.3389423076923077,
+    "CQ_GEN_5_team": 0.3333333333333333,
+    "UNI_ONE": 0.28365384615384615,
+    "UNI_REV": 0.28044871794871795,
+    "UNI_SC": 0.3301282051282051,
+    "POOL": 0.30128205128205127,
+    "SC": 0.33814102564102566
+   }
+  }
+ },
+ "leakage": {
+  "static_hits": [],
+  "frames": {
+   "query_contains_gold": 0.03365384615384615,
+   "round0_text_contains_gold": 0.19951923076923078
+  },
+  "hotpot": {
+   "query_contains_gold": 0.14,
+   "round0_text_contains_gold": 0.586
+  }
+ }
+}

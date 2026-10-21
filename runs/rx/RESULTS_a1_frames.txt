@@ -1,0 +1,18 @@
+=== A1 evidence availability x initial correctness (agent level), frames final n=624 questions (POST-HOC) ===
+availability = gold pages retrieved (page-level)
+own       partner    me0  pt0     n  P(correct): MAS-rev  NoComm-rev   MAS−NC
+none      none         0    0    52    0.000      0.000   +0.0 pp [+0.0, +0.0]
+none      partial      0    0   184    0.000      0.000   +0.0 pp [+0.0, +0.0]
+none      partial      0    1    53    0.962      0.000   +96.2 pp [+90.5, +100.0]
+none      partial      1    1    26    0.962      0.923   +3.8 pp [+0.0, +13.0]
+none      complete     0    0    21    0.000      0.000   +0.0 pp [+0.0, +0.0]
+none      complete     0    1    19    0.947      0.000   +94.7 pp [+82.4, +100.0]
+partial   none         0    0   184    0.000      0.000   +0.0 pp [+0.0, +0.0]
+partial   none         1    0    53    0.717      0.981   -26.4 pp [-39.6, -13.6]
+partial   none         1    1    26    1.000      0.962   +3.8 pp [+0.0, +13.0]
+partial   partial      0    0   294    0.068      0.003   +6.5 pp [+2.8, +10.6]
+partial   partial      0    1    81    0.877      0.025   +85.2 pp [+77.1, +92.5]
+partial   partial      1    0    81    0.654      0.914   -25.9 pp [-38.1, -13.4]
+partial   partial      1    1    86    1.000      0.907   +9.3 pp [+3.8, +15.4]
+complete  none         0    0    21    0.000      0.000   +0.0 pp [+0.0, +0.0]
+complete  none         1    0    19    0.842      1.000   -15.8 pp [-33.3, +0.0]

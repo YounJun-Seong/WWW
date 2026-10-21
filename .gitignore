@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+data/llm_cache*/
+data/passages.jsonl
+data/wiki_cache/
+data/hybridqa_raw/
+data/hq/index.pkl
+external/
+logs/
+runs/*/tmpcache/
+*.smoke

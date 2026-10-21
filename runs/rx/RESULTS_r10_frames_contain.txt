@@ -1,0 +1,6 @@
+[A7 judge-free scoring: contain]
+=== R10 message length / relevance controls, frames final n=613 (POST-HOC) ===
+  No-comm final 0.181
+  R1_FULL       final 0.232; −FULL +0.0 pp [+0.0, +0.0]; −NC +5.1 pp [+2.8, +7.3]; correction 0.078 harm 0.041; words sent 594
+  R10_HARDNEG   final 0.183; −FULL -4.9 pp [-7.2, -2.8]; −NC +0.2 pp [-1.6, +2.0]; correction 0.004 harm 0.041; words sent 599
+  R10_RANDNEG   final 0.189; −FULL -4.2 pp [-6.5, -2.1]; −NC +0.8 pp [-1.0, +2.6]; correction 0.003 harm 0.073; words sent 594

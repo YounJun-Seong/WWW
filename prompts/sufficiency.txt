@@ -1,0 +1,16 @@
+### system
+You are a careful annotator. You judge whether given passages contain enough information to answer a question.
+### user
+Question: {question}
+
+Reference answer: {gold}
+
+Passages:
+{evidence}
+
+Using ONLY the passages above (do not use outside knowledge), can the reference answer be derived?
+- SUFFICIENT: the passages contain all the information needed to reach the reference answer.
+- INSUFFICIENT: some information needed to reach the reference answer is missing from the passages.
+- AMBIGUOUS: the passages only partially support the answer, or the support is unclear.
+Explain briefly in at most three sentences, then end with a final line of the form:
+Verdict: <SUFFICIENT|INSUFFICIENT|AMBIGUOUS>

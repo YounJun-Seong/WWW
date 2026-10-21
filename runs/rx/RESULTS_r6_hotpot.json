@@ -1,0 +1,77 @@
+{
+ "dataset": "hotpot",
+ "n": 1000,
+ "accuracy": {
+  "MAS": 0.54,
+  "NOCOMM": 0.354,
+  "POOL": 0.58,
+  "SC": 0.591,
+  "UNI_ONE": 0.58,
+  "UNI_REV": 0.556,
+  "UNI_SC": 0.591
+ },
+ "cost": {
+  "MAS": {
+   "calls": 4.184,
+   "input": 5723.754,
+   "output": 704.944
+  },
+  "NOCOMM": {
+   "calls": 4.815,
+   "input": 4072.709,
+   "output": 724.481
+  },
+  "POOL": {
+   "calls": 1.0,
+   "input": 1568.804,
+   "output": 166.365
+  },
+  "SC": {
+   "calls": 4.0,
+   "input": 6275.216,
+   "output": 700.335
+  },
+  "UNI_ONE": {
+   "calls": 1.0,
+   "input": 1568.804,
+   "output": 166.365
+  },
+  "UNI_REV": {
+   "calls": 2.0,
+   "input": 3308.854,
+   "output": 308.07
+  },
+  "UNI_SC": {
+   "calls": 4.0,
+   "input": 6275.216,
+   "output": 700.335
+  }
+ },
+ "contrasts": {
+  "MAS_minus_UNI_ONE": [
+   -0.04,
+   -0.062,
+   -0.018
+  ],
+  "MAS_minus_UNI_REV": [
+   -0.016,
+   -0.039,
+   0.007
+  ],
+  "MAS_minus_UNI_SC": [
+   -0.051,
+   -0.074,
+   -0.029
+  ],
+  "MAS_minus_POOL": [
+   -0.04,
+   -0.062,
+   -0.018
+  ],
+  "MAS_minus_SC": [
+   -0.051,
+   -0.074,
+   -0.029
+  ]
+ }
+}

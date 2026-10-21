@@ -1,0 +1,27 @@
+=== BX2-C latency / cost audit, FRAMES 100 pre-drawn questions (measured; local BM25 is NOT Web-retrieval latency) ===
+calls 10295, cache hits 0; reproduction vs frozen cache: same text 0.42460020923628755, same parsed answer 0.697354655507398 (n 6691)
+[isolated] reps [1, 2, 3], questions 100, max in-flight 1
+  system            e2e mean [95% CI]  median LLM crit retr crit ms  calls  tokens
+  LOCAL_ONE     3.07 s [2.83, 3.32]    2.95     3.02         44.0   1.00    1284
+  PEER_EV_5     8.45 s [7.81, 9.16]    7.92     8.34         87.5   4.73    8007
+  FULL          8.05 s [7.43, 8.76]    7.73     7.93         87.3   4.48    8340
+  CQ_Q_5        5.91 s [5.46, 6.39]    5.50     5.81         89.9   2.00    3711
+  CQ_GEN_5      6.80 s [6.34, 7.30]    6.52     6.70         81.0   3.00    5153
+  UNI_ONE       3.54 s [3.22, 3.90]    3.23     3.43         86.8   1.00    2213
+  POOL          3.56 s [3.32, 3.81]    3.43     3.46         95.9   1.00    2229
+  MODELED latency sensitivity (not measured): mean(LLM critical path) + r × serial retrieval rounds
+    r=0.05s: LOCAL_ONE 3.1, UNI_ONE 3.5, POOL 3.5, CQ_Q_5 5.9, CQ_GEN_5 6.8, FULL 8.0, PEER_EV_5 8.4
+    r= 0.2s: LOCAL_ONE 3.2, UNI_ONE 3.6, POOL 3.7, CQ_Q_5 6.2, CQ_GEN_5 7.1, FULL 8.1, PEER_EV_5 8.5
+    r= 0.5s: LOCAL_ONE 3.5, UNI_ONE 3.9, POOL 4.0, CQ_Q_5 6.8, CQ_GEN_5 7.7, FULL 8.4, PEER_EV_5 8.8
+    r=   1s: LOCAL_ONE 4.0, UNI_ONE 4.4, POOL 4.5, CQ_Q_5 7.8, CQ_GEN_5 8.7, FULL 8.9, PEER_EV_5 9.3
+    r=   2s: LOCAL_ONE 5.0, UNI_ONE 5.4, POOL 5.5, CQ_Q_5 9.8, FULL 9.9, PEER_EV_5 10.3, CQ_GEN_5 10.7
+    r=   5s: LOCAL_ONE 8.0, UNI_ONE 8.4, POOL 8.5, FULL 12.9, PEER_EV_5 13.3, CQ_Q_5 15.8, CQ_GEN_5 16.7
+[loaded] reps [1, 2, 3], questions 100, max in-flight 16
+  system            e2e mean [95% CI]  median LLM crit retr crit ms  calls  tokens
+  LOCAL_ONE     5.18 s [4.72, 5.70]    4.87     5.13         48.6   1.00    1286
+  PEER_EV_5    13.48 s [12.50, 14.52]   12.84    13.35         91.4   4.67    7940
+  FULL         12.96 s [12.06, 13.93]   12.32    12.82         96.4   4.45    8316
+  CQ_Q_5        9.82 s [9.00, 10.80]    9.03     9.70         94.8   2.00    3717
+  CQ_GEN_5     11.19 s [10.42, 11.99]   10.66    11.07         90.9   3.00    5138
+  UNI_ONE       5.63 s [5.24, 6.03]    5.63     5.50         91.7   1.00    2203
+  POOL          5.98 s [5.58, 6.39]    5.77     5.86        103.8   1.00    2232

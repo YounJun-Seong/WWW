@@ -1,0 +1,7 @@
+=== backbone llama3.1-8b_rp1.1 (POST-HOC sensitivity): FRAMES final n=624 (judge-based) -> replicates ===
+PRIMARY  P-int MAS − No-comm = +8.5 pp [+5.4, +11.5]
+PRIMARY  DiD(S_UNION)        = +7.4 pp [+3.5, +11.2]   (S_UNION P-int +1.1 pp [-1.3, +3.5])
+P-util MAS − Pooled +4.5 pp [+0.8, +8.2]; MAS − SC-5 +5.9 pp [+2.2, +9.6] (token ratio 0.86)
+accuracy: A0 0.261, B0 0.253, POOL 0.333, A1m 0.341, B1m 0.359, A1n 0.260, B1n 0.242, MAS 0.378, NOCOMM 0.293, SC 0.319, PLACEBO_A 0.210, S_UNION_MAS 0.340, S_UNION_NOCOMM 0.329
+tokens/q: MAS 9884, SC 11459, POOL 2272
+execution: parse min 0.873, truncated 0.0836

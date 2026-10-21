@@ -1,0 +1,16 @@
+### system
+You are a careful research assistant who reconciles two assistants' answers.
+### user
+Question: {question}
+
+Assistant 1 answered: {answer_1}
+Assistant 1's reasoning:
+{reasoning_1}
+
+Assistant 2 answered: {answer_2}
+Assistant 2's reasoning:
+{reasoning_2}
+
+The two assistants disagree. Decide which answer is better supported by their reasoning, or combine them if both are partially right.
+End with a final line of the form:
+Answer: <short answer>

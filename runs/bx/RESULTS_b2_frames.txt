@@ -1,0 +1,21 @@
+=== B2 deployable communication policy, frames: fitted / thresholded on pilot n=200, read on final n=624 (BX pre-specified) ===
+logistic coefficients (standardised): disagree +0.95, hedge -0.10, gap +0.32, nov +0.16, missing +0.00, alen -0.23
+AlwaysComm 0.362  NeverComm 0.258
+budget b=0.2: RANDOM acc 0.279
+  DISAGREE-RANK   act 0.171 acc 0.272 tok   6344 | − RANDOM(b) -0.6 pp [-1.7, +0.5] | − RANDOM(realised) -0.3 pp [-1.4, +0.8] | − DISAGREE-RANK +0.0 pp [+0.0, +0.0]
+  NOVELTY-RANK    act 0.186 acc 0.271 tok   6384 | − RANDOM(b) -0.8 pp [-1.9, +0.3] | − RANDOM(realised) -0.7 pp [-1.7, +0.5] | − DISAGREE-RANK -0.2 pp [-0.5, +0.0]
+  EVIDENCE-AWARE  act 0.207 acc 0.287 tok   6396 | − RANDOM(b) +0.8 pp [-0.5, +2.2] | − RANDOM(realised) +0.7 pp [-0.5, +2.1] | − DISAGREE-RANK +1.4 pp [-0.2, +3.0]
+budget b=0.4: RANDOM acc 0.300
+  DISAGREE-RANK   act 0.434 acc 0.317 tok   6920 | − RANDOM(b) +1.8 pp [+0.2, +3.3] | − RANDOM(realised) +1.4 pp [-0.1, +2.9] | − DISAGREE-RANK +0.0 pp [+0.0, +0.0]
+  NOVELTY-RANK    act 0.377 acc 0.298 tok   6804 | − RANDOM(b) -0.2 pp [-1.6, +1.3] | − RANDOM(realised) +0.1 pp [-1.4, +1.6] | − DISAGREE-RANK -1.9 pp [-3.2, -0.8]
+  EVIDENCE-AWARE  act 0.394 acc 0.321 tok   6793 | − RANDOM(b) +2.1 pp [+0.6, +3.7] | − RANDOM(realised) +2.1 pp [+0.6, +3.7] | − DISAGREE-RANK +0.3 pp [-1.1, +1.8]
+budget b=0.6: RANDOM acc 0.321
+  DISAGREE-RANK   act 0.596 acc 0.330 tok   7267 | − RANDOM(b) +1.0 pp [-0.5, +2.4] | − RANDOM(realised) +1.0 pp [-0.5, +2.5] | − DISAGREE-RANK +0.0 pp [+0.0, +0.0]
+  NOVELTY-RANK    act 0.590 acc 0.330 tok   7266 | − RANDOM(b) +1.0 pp [-0.5, +2.4] | − RANDOM(realised) +1.1 pp [-0.4, +2.5] | − DISAGREE-RANK +0.0 pp [-0.6, +0.6]
+  EVIDENCE-AWARE  act 0.577 acc 0.337 tok   7188 | − RANDOM(b) +1.6 pp [+0.2, +2.9] | − RANDOM(realised) +1.8 pp [+0.4, +3.2] | − DISAGREE-RANK +0.6 pp [-0.8, +2.1]
+budget b=0.8: RANDOM acc 0.341
+  DISAGREE-RANK   act 0.804 acc 0.348 tok   7729 | − RANDOM(b) +0.6 pp [-0.3, +1.5] | − RANDOM(realised) +0.6 pp [-0.4, +1.5] | − DISAGREE-RANK +0.0 pp [+0.0, +0.0]
+  NOVELTY-RANK    act 0.784 acc 0.338 tok   7689 | − RANDOM(b) -0.3 pp [-1.7, +1.0] | − RANDOM(realised) -0.2 pp [-1.5, +1.2] | − DISAGREE-RANK -1.0 pp [-2.4, +0.5]
+  EVIDENCE-AWARE  act 0.800 acc 0.351 tok   7703 | − RANDOM(b) +1.0 pp [-0.0, +1.9] | − RANDOM(realised) +1.0 pp [+0.0, +1.9] | − DISAGREE-RANK +0.3 pp [-0.5, +1.3]
+secondary (fixed rules, activation 0.838): ROUTE-PEER acc 0.356 tok 7800; ROUTE-RETRIEVE acc 0.386 tok 9904; RETRIEVE − PEER +3.0 pp [+0.3, +5.8]
+budgets where EVIDENCE-AWARE beats both RANDOM (realised) and DISAGREE-RANK (CI excludes 0): [] (promotion needs ≥ 2 on both datasets)

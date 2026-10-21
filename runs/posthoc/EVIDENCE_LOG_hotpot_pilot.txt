@@ -1,0 +1,5 @@
+=== evidence log (descriptive) hotpot pilot: n=500 ===
+MAS-final outcome: {"correct": 259, "unknown_partial_match": 155, "integration_failure": 86}
+discordant round-0 pairs: 199; wrong agent's MAS revision outcome: {"correct": 189, "integration_failure": 1, "unknown_partial_match": 9}
+  partner holds gold 197; transmitted 197; corrected 189; of corrected: cites partner gold passage 184, equals partner round-0 answer 189
+all agent revisions outcome: {"correct": 523, "unknown_partial_match": 297, "integration_failure": 180}

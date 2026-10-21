@@ -1,0 +1,8 @@
+{
+ "dataset": "frames",
+ "n_probe": 20,
+ "T_MAS": 8499.85,
+ "t_s": 2180.25,
+ "k_star": 4,
+ "predicted_ratio": 0.9746416695333104
+}

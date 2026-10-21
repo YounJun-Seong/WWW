@@ -1,0 +1,5 @@
+=== R10 message length / relevance controls, frames final n=613 (POST-HOC) ===
+  No-comm final 0.256
+  R1_FULL       final 0.361; −FULL +0.0 pp [+0.0, +0.0]; −NC +10.4 pp [+7.3, +13.7]; correction 0.143 harm 0.025; words sent 594
+  R10_HARDNEG   final 0.274; −FULL -8.6 pp [-11.4, -5.9]; −NC +1.8 pp [-0.5, +4.1]; correction 0.011 harm 0.025; words sent 599
+  R10_RANDNEG   final 0.274; −FULL -8.6 pp [-11.6, -5.9]; −NC +1.8 pp [-0.5, +4.2]; correction 0.003 harm 0.069; words sent 594

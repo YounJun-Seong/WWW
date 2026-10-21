@@ -1,0 +1,8 @@
+{
+ "dataset": "hotpot",
+ "n_probe": 20,
+ "T_MAS": 6482.25,
+ "t_s": 1734.15,
+ "k_star": 4,
+ "predicted_ratio": 0.9344996107603148
+}

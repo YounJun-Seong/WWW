@@ -1,0 +1,642 @@
+[
+ {
+  "item": 1,
+  "idx": 401,
+  "role": "SC",
+  "stratum": "MAS_vs_SC",
+  "n_discordant_stratum": 92,
+  "judge": false
+ },
+ {
+  "item": 2,
+  "idx": 193,
+  "role": "NOCOMM",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": false
+ },
+ {
+  "item": 3,
+  "idx": 362,
+  "role": "NOCOMM",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": false
+ },
+ {
+  "item": 4,
+  "idx": 710,
+  "role": "MAS",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": true
+ },
+ {
+  "item": 5,
+  "idx": 457,
+  "role": "POOL",
+  "stratum": "MAS_vs_POOL",
+  "n_discordant_stratum": 93,
+  "judge": false
+ },
+ {
+  "item": 6,
+  "idx": 447,
+  "role": "MAS",
+  "stratum": "MAS_vs_SC",
+  "n_discordant_stratum": 92,
+  "judge": false
+ },
+ {
+  "item": 7,
+  "idx": 457,
+  "role": "MAS",
+  "stratum": "MAS_vs_POOL",
+  "n_discordant_stratum": 93,
+  "judge": true
+ },
+ {
+  "item": 8,
+  "idx": 193,
+  "role": "MAS",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": true
+ },
+ {
+  "item": 9,
+  "idx": 420,
+  "role": "MAS",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": true
+ },
+ {
+  "item": 10,
+  "idx": 308,
+  "role": "SC",
+  "stratum": "MAS_vs_SC",
+  "n_discordant_stratum": 92,
+  "judge": true
+ },
+ {
+  "item": 11,
+  "idx": 355,
+  "role": "NOCOMM",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": false
+ },
+ {
+  "item": 12,
+  "idx": 529,
+  "role": "SC",
+  "stratum": "MAS_vs_SC",
+  "n_discordant_stratum": 92,
+  "judge": true
+ },
+ {
+  "item": 13,
+  "idx": 248,
+  "role": "SC",
+  "stratum": "MAS_vs_SC",
+  "n_discordant_stratum": 92,
+  "judge": true
+ },
+ {
+  "item": 14,
+  "idx": 442,
+  "role": "MAS",
+  "stratum": "MAS_vs_SC",
+  "n_discordant_stratum": 92,
+  "judge": true
+ },
+ {
+  "item": 15,
+  "idx": 569,
+  "role": "NOCOMM",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": false
+ },
+ {
+  "item": 16,
+  "idx": 482,
+  "role": "MAS",
+  "stratum": "MAS_vs_SC",
+  "n_discordant_stratum": 92,
+  "judge": false
+ },
+ {
+  "item": 17,
+  "idx": 755,
+  "role": "MAS",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": true
+ },
+ {
+  "item": 18,
+  "idx": 248,
+  "role": "MAS",
+  "stratum": "MAS_vs_SC",
+  "n_discordant_stratum": 92,
+  "judge": false
+ },
+ {
+  "item": 19,
+  "idx": 702,
+  "role": "POOL",
+  "stratum": "MAS_vs_POOL",
+  "n_discordant_stratum": 93,
+  "judge": true
+ },
+ {
+  "item": 20,
+  "idx": 449,
+  "role": "MAS",
+  "stratum": "MAS_vs_POOL",
+  "n_discordant_stratum": 93,
+  "judge": false
+ },
+ {
+  "item": 21,
+  "idx": 376,
+  "role": "POOL",
+  "stratum": "MAS_vs_POOL",
+  "n_discordant_stratum": 93,
+  "judge": true
+ },
+ {
+  "item": 22,
+  "idx": 376,
+  "role": "MAS",
+  "stratum": "MAS_vs_POOL",
+  "n_discordant_stratum": 93,
+  "judge": false
+ },
+ {
+  "item": 23,
+  "idx": 764,
+  "role": "NOCOMM",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": false
+ },
+ {
+  "item": 24,
+  "idx": 564,
+  "role": "MAS",
+  "stratum": "MAS_vs_POOL",
+  "n_discordant_stratum": 93,
+  "judge": true
+ },
+ {
+  "item": 25,
+  "idx": 691,
+  "role": "SC",
+  "stratum": "MAS_vs_SC",
+  "n_discordant_stratum": 92,
+  "judge": false
+ },
+ {
+  "item": 26,
+  "idx": 442,
+  "role": "SC",
+  "stratum": "MAS_vs_SC",
+  "n_discordant_stratum": 92,
+  "judge": false
+ },
+ {
+  "item": 27,
+  "idx": 722,
+  "role": "MAS",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": true
+ },
+ {
+  "item": 28,
+  "idx": 10,
+  "role": "MAS",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": true
+ },
+ {
+  "item": 29,
+  "idx": 691,
+  "role": "MAS",
+  "stratum": "MAS_vs_SC",
+  "n_discordant_stratum": 92,
+  "judge": true
+ },
+ {
+  "item": 30,
+  "idx": 734,
+  "role": "NOCOMM",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": false
+ },
+ {
+  "item": 31,
+  "idx": 362,
+  "role": "MAS",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": true
+ },
+ {
+  "item": 32,
+  "idx": 227,
+  "role": "SC",
+  "stratum": "MAS_vs_SC",
+  "n_discordant_stratum": 92,
+  "judge": true
+ },
+ {
+  "item": 33,
+  "idx": 536,
+  "role": "MAS",
+  "stratum": "MAS_vs_SC",
+  "n_discordant_stratum": 92,
+  "judge": false
+ },
+ {
+  "item": 34,
+  "idx": 422,
+  "role": "MAS",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": true
+ },
+ {
+  "item": 35,
+  "idx": 353,
+  "role": "MAS",
+  "stratum": "MAS_vs_POOL",
+  "n_discordant_stratum": 93,
+  "judge": false
+ },
+ {
+  "item": 36,
+  "idx": 191,
+  "role": "NOCOMM",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": true
+ },
+ {
+  "item": 37,
+  "idx": 564,
+  "role": "POOL",
+  "stratum": "MAS_vs_POOL",
+  "n_discordant_stratum": 93,
+  "judge": false
+ },
+ {
+  "item": 38,
+  "idx": 702,
+  "role": "MAS",
+  "stratum": "MAS_vs_POOL",
+  "n_discordant_stratum": 93,
+  "judge": false
+ },
+ {
+  "item": 39,
+  "idx": 482,
+  "role": "SC",
+  "stratum": "MAS_vs_SC",
+  "n_discordant_stratum": 92,
+  "judge": true
+ },
+ {
+  "item": 40,
+  "idx": 121,
+  "role": "POOL",
+  "stratum": "MAS_vs_POOL",
+  "n_discordant_stratum": 93,
+  "judge": true
+ },
+ {
+  "item": 41,
+  "idx": 108,
+  "role": "MAS",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": true
+ },
+ {
+  "item": 42,
+  "idx": 764,
+  "role": "MAS",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": true
+ },
+ {
+  "item": 43,
+  "idx": 710,
+  "role": "NOCOMM",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": false
+ },
+ {
+  "item": 44,
+  "idx": 747,
+  "role": "MAS",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": true
+ },
+ {
+  "item": 45,
+  "idx": 420,
+  "role": "NOCOMM",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": false
+ },
+ {
+  "item": 46,
+  "idx": 449,
+  "role": "POOL",
+  "stratum": "MAS_vs_POOL",
+  "n_discordant_stratum": 93,
+  "judge": true
+ },
+ {
+  "item": 47,
+  "idx": 274,
+  "role": "MAS",
+  "stratum": "MAS_vs_POOL",
+  "n_discordant_stratum": 93,
+  "judge": false
+ },
+ {
+  "item": 48,
+  "idx": 274,
+  "role": "POOL",
+  "stratum": "MAS_vs_POOL",
+  "n_discordant_stratum": 93,
+  "judge": true
+ },
+ {
+  "item": 49,
+  "idx": 108,
+  "role": "NOCOMM",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": false
+ },
+ {
+  "item": 50,
+  "idx": 401,
+  "role": "MAS",
+  "stratum": "MAS_vs_SC",
+  "n_discordant_stratum": 92,
+  "judge": true
+ },
+ {
+  "item": 51,
+  "idx": 72,
+  "role": "NOCOMM",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": false
+ },
+ {
+  "item": 52,
+  "idx": 121,
+  "role": "MAS",
+  "stratum": "MAS_vs_POOL",
+  "n_discordant_stratum": 93,
+  "judge": false
+ },
+ {
+  "item": 53,
+  "idx": 65,
+  "role": "MAS",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": true
+ },
+ {
+  "item": 54,
+  "idx": 517,
+  "role": "MAS",
+  "stratum": "MAS_vs_POOL",
+  "n_discordant_stratum": 93,
+  "judge": true
+ },
+ {
+  "item": 55,
+  "idx": 404,
+  "role": "MAS",
+  "stratum": "MAS_vs_POOL",
+  "n_discordant_stratum": 93,
+  "judge": true
+ },
+ {
+  "item": 56,
+  "idx": 755,
+  "role": "NOCOMM",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": false
+ },
+ {
+  "item": 57,
+  "idx": 422,
+  "role": "NOCOMM",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": false
+ },
+ {
+  "item": 58,
+  "idx": 227,
+  "role": "MAS",
+  "stratum": "MAS_vs_SC",
+  "n_discordant_stratum": 92,
+  "judge": false
+ },
+ {
+  "item": 59,
+  "idx": 569,
+  "role": "MAS",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": true
+ },
+ {
+  "item": 60,
+  "idx": 512,
+  "role": "NOCOMM",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": false
+ },
+ {
+  "item": 61,
+  "idx": 734,
+  "role": "MAS",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": true
+ },
+ {
+  "item": 62,
+  "idx": 722,
+  "role": "NOCOMM",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": false
+ },
+ {
+  "item": 63,
+  "idx": 72,
+  "role": "MAS",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": true
+ },
+ {
+  "item": 64,
+  "idx": 536,
+  "role": "SC",
+  "stratum": "MAS_vs_SC",
+  "n_discordant_stratum": 92,
+  "judge": true
+ },
+ {
+  "item": 65,
+  "idx": 529,
+  "role": "MAS",
+  "stratum": "MAS_vs_SC",
+  "n_discordant_stratum": 92,
+  "judge": false
+ },
+ {
+  "item": 66,
+  "idx": 405,
+  "role": "MAS",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": true
+ },
+ {
+  "item": 67,
+  "idx": 747,
+  "role": "NOCOMM",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": false
+ },
+ {
+  "item": 68,
+  "idx": 740,
+  "role": "MAS",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": true
+ },
+ {
+  "item": 69,
+  "idx": 191,
+  "role": "MAS",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": false
+ },
+ {
+  "item": 70,
+  "idx": 405,
+  "role": "NOCOMM",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": false
+ },
+ {
+  "item": 71,
+  "idx": 517,
+  "role": "POOL",
+  "stratum": "MAS_vs_POOL",
+  "n_discordant_stratum": 93,
+  "judge": false
+ },
+ {
+  "item": 72,
+  "idx": 353,
+  "role": "POOL",
+  "stratum": "MAS_vs_POOL",
+  "n_discordant_stratum": 93,
+  "judge": true
+ },
+ {
+  "item": 73,
+  "idx": 740,
+  "role": "NOCOMM",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": false
+ },
+ {
+  "item": 74,
+  "idx": 512,
+  "role": "MAS",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": true
+ },
+ {
+  "item": 75,
+  "idx": 447,
+  "role": "SC",
+  "stratum": "MAS_vs_SC",
+  "n_discordant_stratum": 92,
+  "judge": true
+ },
+ {
+  "item": 76,
+  "idx": 65,
+  "role": "NOCOMM",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": false
+ },
+ {
+  "item": 77,
+  "idx": 308,
+  "role": "MAS",
+  "stratum": "MAS_vs_SC",
+  "n_discordant_stratum": 92,
+  "judge": false
+ },
+ {
+  "item": 78,
+  "idx": 404,
+  "role": "POOL",
+  "stratum": "MAS_vs_POOL",
+  "n_discordant_stratum": 93,
+  "judge": false
+ },
+ {
+  "item": 79,
+  "idx": 10,
+  "role": "NOCOMM",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": false
+ },
+ {
+  "item": 80,
+  "idx": 355,
+  "role": "MAS",
+  "stratum": "MAS_vs_NOCOMM",
+  "n_discordant_stratum": 91,
+  "judge": true
+ }
+]

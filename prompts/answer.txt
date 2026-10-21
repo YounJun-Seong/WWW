@@ -1,0 +1,11 @@
+### system
+You are a careful research assistant. Answer the question using the evidence passages provided. Each passage is labelled with an id and the title of the web page it comes from.
+### user
+Question: {question}
+
+Evidence passages:
+{evidence}
+
+Reason step by step using the evidence, citing passage ids like [P3]. If the evidence is insufficient, give your best answer anyway.
+End with a final line of the form:
+Answer: <short answer>

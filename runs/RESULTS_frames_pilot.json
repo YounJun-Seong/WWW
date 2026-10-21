@@ -1,0 +1,127 @@
+{
+ "dataset": "frames",
+ "split": "pilot",
+ "n": 200,
+ "accuracy": {
+  "A0": 0.25,
+  "B0": 0.24,
+  "POOL": 0.355,
+  "A1m": 0.315,
+  "B1m": 0.36,
+  "A1n": 0.245,
+  "B1n": 0.24,
+  "MAS": 0.34,
+  "NOCOMM": 0.27,
+  "SC": 0.4,
+  "PLACEBO_A": 0.27
+ },
+ "tokens": {
+  "A0": 1270.19,
+  "B0": 1260.535,
+  "POOL": 2215.045,
+  "MAS": 8176.775,
+  "NOCOMM": 5951.095,
+  "SC": 8875.7
+ },
+ "synthesized": {
+  "MAS": 0.445,
+  "NOCOMM": 0.855
+ },
+ "P_int": [
+  0.07,
+  0.025,
+  0.115
+ ],
+ "P_util": [
+  -0.015,
+  -0.075,
+  0.045
+ ],
+ "G1": {
+  "MAS_minus_SC": [
+   -0.06,
+   -0.125,
+   0.005
+  ],
+  "token_ratio_MAS_SC": 0.9212540982683055,
+  "token_ratio_MAS_NOCOMM": 1.3739950378879853,
+  "MAS_minus_A": [
+   0.09,
+   0.035,
+   0.145
+  ],
+  "MAS_minus_B": [
+   0.1,
+   0.05,
+   0.15
+  ]
+ },
+ "G2": {
+  "complementarity": [
+   0.14,
+   0.09,
+   0.16500000000000004
+  ],
+  "placebo": [
+   0.07500000000000001,
+   0.04000000000000001,
+   0.11000000000000001
+  ],
+  "corrected": [
+   0.065,
+   0.004999999999999976,
+   0.10499999999999998
+  ]
+ },
+ "G4": {
+  "kappa0": 0.39,
+  "kappa_MAS": 0.385,
+  "kappa_NOCOMM": 0.38,
+  "gain_MAS": 0.01,
+  "loss_MAS": 0.015,
+  "gain_NOCOMM": 0.005,
+  "loss_NOCOMM": 0.015,
+  "delta_MAS_minus_NOCOMM": [
+   0.005,
+   -0.025,
+   0.035
+  ]
+ },
+ "G5": {
+  "n_discordant": 58,
+  "MAS": {
+   "BRR": 0.9137931034482759,
+   "HRR": 0.3103448275862069,
+   "DI": [
+    0.603448275862069,
+    0.4482758620689655,
+    0.7413793103448276
+   ]
+  },
+  "NOCOMM": {
+   "BRR": 0.017241379310344827,
+   "HRR": 0.05172413793103448,
+   "DI": [
+    -0.034482758620689655,
+    -0.10344827586206896,
+    0.034482758620689655
+   ]
+  }
+ },
+ "evidence_transfer": {
+  "availability_held": 0.9482758620689655,
+  "availability_retrieved": 0.896551724137931,
+  "utilization_MAS": 0.9230769230769231,
+  "utilization_NOCOMM": 0.019230769230769232,
+  "n_available": 52,
+  "utilization_MAS_partner_only": 1.0,
+  "utilization_NOCOMM_partner_only": 0.0,
+  "n_partner_only": 21,
+  "transfer_success_MAS": 0.8275862068965518
+ },
+ "failure_taxonomy": {
+  "retrieval_miss": 9,
+  "insufficient_evidence": 93,
+  "integration_failure": 30
+ }
+}

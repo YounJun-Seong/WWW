@@ -1,0 +1,13 @@
+=== R6 single-agent union baselines (same evidence union A5∪B5 as the MAS team), hotpot final n=1000 (POST-HOC) ===
+  MAS      acc 0.540  calls 4.2  in 5724  out 705
+  NOCOMM   acc 0.354  calls 4.8  in 4073  out 724
+  POOL     acc 0.580  calls 1.0  in 1569  out 166
+  SC       acc 0.591  calls 4.0  in 6275  out 700
+  UNI_ONE  acc 0.580  calls 1.0  in 1569  out 166
+  UNI_REV  acc 0.556  calls 2.0  in 3309  out 308
+  UNI_SC   acc 0.591  calls 4.0  in 6275  out 700
+  MAS_minus_UNI_ONE: -4.0 pp [-6.2, -1.8]
+  MAS_minus_UNI_REV: -1.6 pp [-3.9, +0.7]
+  MAS_minus_UNI_SC: -5.1 pp [-7.4, -2.9]
+  MAS_minus_POOL: -4.0 pp [-6.2, -1.8]
+  MAS_minus_SC: -5.1 pp [-7.4, -2.9]

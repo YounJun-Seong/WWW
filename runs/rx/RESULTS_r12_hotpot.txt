@@ -1,0 +1,6 @@
+=== R12 retrieval-noise stress, hotpot final n=1000 (POST-HOC) ===
+  No-comm final 0.354
+  R1_FULL       final 0.559; −FULL +0.0 pp [+0.0, +0.0]; −NC +20.5 pp [+17.8, +23.4]; correction 0.354 harm 0.019; words sent 451
+  R12_N3        final 0.581; −FULL +2.2 pp [+0.8, +3.7]; −NC +22.7 pp [+19.9, +25.6]; correction 0.349 harm 0.016; words sent 742
+  R12_N6        final 0.569; −FULL +1.0 pp [-0.5, +2.5]; −NC +21.5 pp [+18.9, +24.3]; correction 0.347 harm 0.028; words sent 1036
+  R12_GOLDLAST  final 0.556; −FULL -0.3 pp [-1.7, +1.1]; −NC +20.2 pp [+17.5, +23.1]; correction 0.348 harm 0.028; words sent 451
